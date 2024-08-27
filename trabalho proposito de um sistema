@@ -1,3 +1,30 @@
+What (O que): 
+Qual é seu propósito?
+ O propósito de um sistema é o motivo pelo qual ele foi criado, incluindo seus objetivos e metas a serem alcançados. Um sistema operacional, por exemplo, busca resolver as dúvidas e problemas que os usuários podem enfrentar, tornando a utilização da máquina mais simples e compreensível. Isso inclui utilizar o hardware de forma mais eficaz, tornar o computador mais conveniente de usar, ajudar no controle de performance e fortalecer a segurança do sistema, entre outros aspectos. Os sistemas operacionais também transformam os códigos binários (0 e 1) gerados pelo computador em informações que os humanos conseguem entender, além de gerenciar periféricos como mouse e teclado, garantindo que funcionem corretamente em conjunto com o sistema.
+
+
+Why (Por que):
+Qual sua importância?
+O sistema operacional está presente em quase todos os dispositivos que usamos, desde computadores, TVs e celulares, até carros e aviões. Isso evidencia a sua importância em nosso dia a dia, já que ele está integrado em nosso cotidiano. Sem o sistema operacional, um computador, por exemplo, seria praticamente inútil, pois não seríamos capazes de criar documentos, ouvir música, navegar na internet, ou realizar outras atividades que tornam nossas vidas mais fáceis. Em resumo, o sistema ajuda a tornar a tecnologia mais acessível, simplificando processos e gerando uma experiencia mais fluida e intuitiva as pessoas, sem nos fazer lidar com aa complexidade técnica por trás.
+
+
+Who (Quem):
+
+O propósito de um sistema geralmente é definido por um conjunto de partes interessadas, que pode incluir: Gestores e Executivos, Analistas de Negócios, Consultores e Especialistas e muitas outras pessoas. 
+Refere-se à razão fundamental pela qual o sistema foi criado e o objetivo que se pretende alcançar com ele. Esse conceito é essencial para garantir que o sistema seja desenvolvido de maneira eficaz e atenda às necessidades dos usuários e da organização.
+Um exemplo é a Identificação do Problema ou Oportunidade, Escalabilidade e Flexibilidade, Segurança e Conformidade, etc.
+
+
+Where (Onde):
+
+O propositio de um sistema esta aonde o que Ele faz, qual problema ele soluciona.Por exemplo o proposito de um restaurante é oferecer comida as pessoas de uma maneira que gere lucro, na biologia pode ser reproduzir e sobreviver. De maneira geral para concluir onde esta o proposito de um sistema pode-se dizer que esta no o que esse sistema gera como resultado em relação ao pedido do cliente.
+
+
+When (Quando):
+
+O proposito de sistema aparece durante 3 fases. Ele pode se manifestar durante o desenvolvimento e design do sistema ou durante alguma reuniao com o cliente.Enquanto acontecem as operaçoes do sistema, observando seus compartamentos pode ser identificado melhor o proposito do sistema.A ultima fase onde o proposito do sistema se esclarece é avaliando os resultados do sistema, os outputs que ele fez em relação ao problema que deveria ser solucionado 
+
+
 how much/ quanto custa: 
 
 O custo de um sistema não precisa ser necessariamente financeiro; pode ser medido em termos de horas trabalhadas pela equipe para a realização do projeto. Diversos fatores podem determinar o custo de um sistema, como o tempo de desenvolvimento, o custo de manutenção, o suporte técnico ao cliente que utilizará o sistema, e a necessidade de atualizações para garantir a performance produtiva do sistema para o cliente. Na maioria das vezes, essas atualizações são essenciais para manter o sistema funcionando de forma eficiente.
@@ -6,7 +33,8 @@ Portanto, é fundamental coletar informações para entender quanto custará des
 Portanto é visto que o custo de um sistema envolve diversos fatores,e com isso conclui se que é importante equilibrar o custo de produção com o valor percebido pelo cliente para gerenciar corretamente o proposito do seu sitema e atingir o sucesso através dele. 
 
 
-como implementar o proposito de um sistema:
+How/como implementar o proposito de um sistema:
+
 Como realizar o proposito de um sistema e uma parte muito importante pois através dela é possível se prevenir de erros e não gerar duvidas nas áreas de desenvolvimento do seu sistema entao para isso é muito essencial que os métodos e processos executados sejam especificados e organizados para que os desenvolvedores trabalhem em conjunto.
 Como e feita a implementação de um proposito de um sistema? 
 - É necessário um planejamento manutenção,criatividade e testes. 
