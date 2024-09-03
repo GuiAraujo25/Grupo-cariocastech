@@ -2,7 +2,7 @@
 - O sistema proporciona trabalhos e projetos feitos em todos os cursos da ibmec. (certo)
 - O site possuir a opção de carregar mais. 
 - O sistema não possui sistema de login e senha.
-- O sistema cita a data de inicio e final do projeto. (certo)
+- Ter a data de início e final do projeto. (certo)
 - O sistema possui uma lista apenas de projetos com opcão de clicar e exibir a descrição de cada projeto. (certo)
 - Cada aluno tera um filtro que leve para uma lista com todos os projetos que ele já fez. 
 - Em sua primeira pagina possuira uma descrição do projeto, uma imagem, os nomes e matriculas dos alunos que fizeram, as ferramentas e linguagens usadas. 
