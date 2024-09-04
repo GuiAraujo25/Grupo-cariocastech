@@ -1,5 +1,6 @@
-# Funcionais
-- O sistema proporciona trabalhos e projetos feitos em todos os cursos da ibmec. (certo)
+# requisitos Funcionais
+- descrição no site
+- O sistema proporciona trabalhos e projetos feitos em todos os cursos da ibmec. 
 - O site possuir a opção de carregar mais. 
 - O sistema não possui sistema de login e senha.
 - Ter a data de início e final do projeto. (certo)
@@ -8,10 +9,18 @@
 - Em sua primeira pagina possuira uma descrição do projeto, uma imagem, os nomes e matriculas dos alunos que fizeram, as ferramentas e linguagens usadas. 
 - o sistema deve possibiltar o filtro do portifólio apresentando o nome do aluno (certo)
 - Cada projeto sera identificado por imagem na pagina de listagens.
-# Não Funcionais
-- O sistema deve possibilitar escolher entre no minimo dois idiomas diferentes. (certo)
+
+
+#  requisitos não Funcionais
+
+- O sistema deve possibilitar escolher entre no minimo dois idiomas diferentes. (multilinguagem)
+- sistema produzido ultilizando react
 - No sistema, sera possivel filtrar entre os cursos disponiveis na faculdade.
 - O sistema vai aderir a identidade visual da faculdade.
-- Apenas o administrador sera capaz de organizar de modificar coisas no sistema. (certo)
-- O sistema terá acesso tanto mobile quanto pelo computador. (certo)
-
+- Apenas o administrador sera capaz de organizar de modificar coisas no sistema. 
+- O sistema terá acesso tanto mobile quanto pelo computador. 
+- indicar quando o projeto começou e uando terminou 
+- filtrar os projetos pelo nome dos alunos ou curso 
+- presença de imagens 
+- desempenho / tempo de resposta 
+- Escalabilidade: Deve suportar um número crescente de projetos e acessos sem comprometer o desempenho.
