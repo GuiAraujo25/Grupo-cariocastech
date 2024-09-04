@@ -1,4 +1,4 @@
-# requisitos Funcionais
+# Requisitos Funcionais
 
 - O sistema proporciona trabalhos e projetos feitos em todos os cursos da ibmec. 
 - deve apresentar uma lista de Projetos de alunos 
@@ -11,7 +11,7 @@
 - o sistema deve possibiltar o filtro do portifólio apresentando o nome do aluno 
 
 
-#  requisitos não Funcionais
+#  Requisitos não Funcionais
 
 - O sistema deve possibilitar escolher entre no minimo dois idiomas diferentes. (multilinguagem)
 - sistema produzido ultilizando react
