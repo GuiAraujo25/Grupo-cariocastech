@@ -1,19 +1,18 @@
 # Requisitos Funcionais
 
 - O sistema proporciona trabalhos e projetos feitos em todos os cursos da ibmec. 
-- deve apresentar uma lista de Projetos de alunos 
-- O site possuir a opção de carregar mais. 
+- O sistema deve apresentar uma lista de Projetos de alunos 
+- O sistema possuir a opção de carregar mais. 
 - Identificação Visual dos Projetos
 - O sistema não possui sistema de login e senha.
-- Ter a data de início e final do projeto. 
+- O sistema deve apresentar a data de início e final de cada projeto. 
 - O sistema possui uma lista apenas de projetos com opcão de clicar e exibir a descrição de cada projeto.
-- Em sua primeira pagina possuira uma descrição do projeto, uma imagem, os nomes e matriculas dos alunos que fizeram, as ferramentas e linguagens usadas.(nao tenho crtz ainda)
+- Em sua primeira pagina o sistema possuira uma descrição do projeto, uma imagem, os nomes e matriculas dos alunos que fizeram, as ferramentas e linguagens usadas.(nao tenho crtz ainda)
 - o sistema deve possibiltar o filtro do portifólio apresentando o nome do aluno 
-
+- o sistema deve apresentar pelo menos dois idiomas diferentes sao eles portugues e ingles (multilinguagem)
 
 #  Requisitos não Funcionais
 
-- O sistema deve possibilitar escolher entre no minimo dois idiomas diferentes. (multilinguagem)
 - sistema produzido ultilizando react
 - No sistema, sera possivel filtrar entre os cursos disponiveis na faculdade.
 - O sistema vai aderir a identidade visual da faculdade.
