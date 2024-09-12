@@ -6,7 +6,7 @@
 - Identificação Visual dos Projetos
 - O sistema não possui sistema de login e senha. 
 - O sistema possuirá uma lista apenas de projetos com opcão de clicar e exibir a descrição de cada projeto.
-- Em sua primeira pagina o sistema possuira uma descrição do projeto, uma imagem, os nomes e matriculas dos alunos que fizeram, as ferramentas e linguagens usadas.(nao tenho crtz ainda) 
+- Em sua primeira pagina o sistema possuira uma descrição do projeto, uma imagem, os nomes e matriculas dos alunos que fizeram, as ferramentas e linguagens usadas.
 - o sistema deverá apresentar pelo menos dois idiomas diferentes sao eles portugues e ingles (multilinguagem)
 - O desenvolvimento do sistema deverá respeitar o prazo de cada entrega estipulada pelo professor, inclusive a entrega final.
 
