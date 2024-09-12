@@ -22,4 +22,4 @@
 - filtrar os projetos pelo nome dos alunos ou curso 
 - presença de imagens para design
 - desempenho / tempo de resposta 
-- Escalabilidade: Deve suportar um número crescente de projetos e acessos sem comprometer o desempenho.
+- Escalabilidade: O sistema deve suportar um número crescente de projetos e acessos sem comprometer o desempenho.
