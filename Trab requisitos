@@ -1,25 +1,25 @@
 # Requisitos Funcionais
 
-- O sistema proporciona trabalhos e projetos feitos em todos os cursos da ibmec. 
-- O sistema deve apresentar uma lista de Projetos de alunos 
-- O sistema possuir a opção de carregar mais. 
+- O sistema proporcionará trabalhos e projetos feitos em todos os cursos da ibmec. 
+- O sistema deverá apresentar uma lista de Projetos de alunos 
+- O sistema possuirá a opção de carregar mais. 
 - Identificação Visual dos Projetos
 - O sistema não possui sistema de login e senha.
-- O sistema deve apresentar a data de início e final de cada projeto. 
-- O sistema possui uma lista apenas de projetos com opcão de clicar e exibir a descrição de cada projeto.
+- O sistema deverá apresentar a data de início e final de cada projeto. 
+- O sistema possuirá uma lista apenas de projetos com opcão de clicar e exibir a descrição de cada projeto.
 - Em sua primeira pagina o sistema possuira uma descrição do projeto, uma imagem, os nomes e matriculas dos alunos que fizeram, as ferramentas e linguagens usadas.(nao tenho crtz ainda) 
-- o sistema deve apresentar pelo menos dois idiomas diferentes sao eles portugues e ingles (multilinguagem)
-- O desenvolvimento do sistema deve respeitar o prazo de cada entrega estipulada pelo professor, inclusive a entrega final.
+- o sistema deverá apresentar pelo menos dois idiomas diferentes sao eles portugues e ingles (multilinguagem)
+- O desenvolvimento do sistema deverá respeitar o prazo de cada entrega estipulada pelo professor, inclusive a entrega final.
 
 
 #  Requisitos não Funcionais
 
-- sistema produzido ultilizando react
+- sistema  será produzido ultilizando react
 - No sistema, sera possivel filtrar entre os cursos disponiveis na faculdade.
-- O sistema vai aderir a identidade visual da faculdade.
+- O sistema irá aderir a identidade visual da faculdade.
 - Apenas o administrador sera capaz de organizar de modificar coisas no sistema. 
 - O sistema terá acesso tanto mobile quanto pelo computador.  
 - filtrar os projetos pelo nome dos alunos ou curso 
 - presença de imagens para design
 - desempenho / tempo de resposta 
-- Escalabilidade: O sistema deve suportar um número crescente de projetos e acessos sem comprometer o desempenho.
+- Escalabilidade: O sistema deverá suportar um número crescente de projetos e acessos sem comprometer o desempenho.
