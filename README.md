@@ -1,4 +1,4 @@
-# grupo-front-end
+# grupo cariocastech
 Guilherme Pardelhas https://github.com/GuiAraujo25/front-end
 
 Bernardo Ottan  https://github.com/berna-ottan/front.end
@@ -7,7 +7,8 @@ Eduardo Jacob Pontes https://github.com/EduardoJacobPontes/front-end
 
 Eduardo Andrade https://github.com/eduardoandrade22/front-end
 
-#5W2H:
+# Propósito do sistema
+- 5W2H:
 Se trata de uma metodologia utilizada por algumas empresas como uma forma de organizar seu projeto através de 7 perguntas basicas sobre cada area de tal projeto.
 
 - What (O que):
