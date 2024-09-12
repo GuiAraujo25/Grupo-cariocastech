@@ -35,15 +35,15 @@ Se trata de uma metodologia utilizada por algumas empresas como uma forma de org
 
 
 # Requisitos funcionais
-  O sistema proporcionará trabalhos e projetos feitos em todos os cursos da ibmec.
-  O sistema deverá apresentar uma lista de Projetos de alunos
-  O sistema possuirá a opção de carregar mais.
-  O sistema deverá possuir Identificação Visual dos Projetos
-  O sistema não possui sistema de login e senha.
-  O sistema possuirá uma lista apenas de projetos com opcão de clicar e exibir a descrição de cada projeto.
-  Em sua primeira pagina o sistema possuira uma descrição do projeto, uma imagem, os nomes e matriculas dos alunos que fizeram, as 
-  ferramentas e linguagens usadas.
-  No sistema, sera possivel filtrar entre os cursos disponiveis na faculdade.
+- O sistema proporcionará trabalhos e projetos feitos em todos os cursos da ibmec.
+- O sistema deverá apresentar uma lista de Projetos de alunos
+- O sistema possuirá a opção de carregar mais.
+- O sistema deverá possuir Identificação Visual dos Projetos
+- O sistema não possui sistema de login e senha.
+- O sistema possuirá uma lista apenas de projetos com opcão de clicar e exibir a descrição de cada projeto.
+- Em sua primeira pagina o sistema possuira uma descrição do projeto, uma imagem, os nomes e matriculas dos alunos que fizeram, as 
+ ferramentas e linguagens usadas.
+- No sistema, sera possivel filtrar entre os cursos disponiveis na faculdade.
   
 # Requisitos não funcionais 
 - O sistema possuirá tradução em inglês e portugues.
