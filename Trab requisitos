@@ -7,8 +7,7 @@
 - O sistema não possui sistema de login e senha.
 - O sistema deve apresentar a data de início e final de cada projeto. 
 - O sistema possui uma lista apenas de projetos com opcão de clicar e exibir a descrição de cada projeto.
-- Em sua primeira pagina o sistema possuira uma descrição do projeto, uma imagem, os nomes e matriculas dos alunos que fizeram, as ferramentas e linguagens usadas.(nao tenho crtz ainda)
-- o sistema deve possibiltar o filtro do portifólio apresentando o nome do aluno 
+- Em sua primeira pagina o sistema possuira uma descrição do projeto, uma imagem, os nomes e matriculas dos alunos que fizeram, as ferramentas e linguagens usadas.(nao tenho crtz ainda) 
 - o sistema deve apresentar pelo menos dois idiomas diferentes sao eles portugues e ingles (multilinguagem)
 - O desenvolvimento do sistema deve respeitar o prazo de cada entrega estipulada pelo professor, inclusive a entrega final.
 #  Requisitos não Funcionais
