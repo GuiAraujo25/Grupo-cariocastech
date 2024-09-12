@@ -12,8 +12,8 @@
 
 #  Requisitos não Funcionais
 
-- - o sistema deverá apresentar pelo menos dois idiomas diferentes sao eles portugues e ingles (multilinguagem)
-- sistema  será produzido ultilizando react
+- o sistema deverá apresentar pelo menos dois idiomas diferentes sao eles portugues e ingles (multilinguagem)
+- o sistema será produzido ultilizando react
 - O sistema irá aderir a identidade visual da faculdade.
 - Apenas o administrador sera capaz de organizar de modificar coisas no sistema. 
 - O sistema terá acesso tanto mobile quanto pelo computador.  
