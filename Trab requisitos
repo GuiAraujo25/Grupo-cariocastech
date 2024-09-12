@@ -4,8 +4,7 @@
 - O sistema deverá apresentar uma lista de Projetos de alunos 
 - O sistema possuirá a opção de carregar mais. 
 - Identificação Visual dos Projetos
-- O sistema não possui sistema de login e senha.
-- O sistema deverá apresentar a data de início e final de cada projeto. 
+- O sistema não possui sistema de login e senha. 
 - O sistema possuirá uma lista apenas de projetos com opcão de clicar e exibir a descrição de cada projeto.
 - Em sua primeira pagina o sistema possuira uma descrição do projeto, uma imagem, os nomes e matriculas dos alunos que fizeram, as ferramentas e linguagens usadas.(nao tenho crtz ainda) 
 - o sistema deverá apresentar pelo menos dois idiomas diferentes sao eles portugues e ingles (multilinguagem)
