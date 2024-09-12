@@ -1,4 +1,4 @@
-# grupo cariocastech
+# Grupo cariocastech
 Guilherme Pardelhas https://github.com/GuiAraujo25/front-end
 
 Bernardo Ottan  https://github.com/berna-ottan/front.end
