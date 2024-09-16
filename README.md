@@ -51,3 +51,11 @@ Se trata de uma metodologia utilizada por algumas empresas como uma forma de org
 - O sistema irá aderir a identidade visual da faculdade.
 - Apenas o administrador sera capaz de organizar de modificar coisas no sistema.
 - O sistema terá acesso tanto mobile quanto pelo computador.
+
+
+#Casos de uso
+-Exibir detalhes de um projeto
+-Fazer login de admin
+-Alterar um projeto  (adm)
+-Exibir uma area de colaboradores do site
+
