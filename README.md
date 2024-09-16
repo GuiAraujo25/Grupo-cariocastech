@@ -71,15 +71,15 @@ Se trata de uma metodologia utilizada por algumas empresas como uma forma de org
   
 # Requisitos não funcionais 
 - O sistema possuirá tradução em inglês e portugues.
-- (O sistema deve oferecer suporte a dois idiomas: inglês e português. Isso significa que todos os textos e interfaces do sistema serão traduzidos e apresentados em ambas as línguas, permitindo que os usuários escolham o idioma de sua preferência para navegação e interação com o conteúdo.)
+ ( O sistema deve oferecer suporte a dois idiomas: inglês e português. Isso significa que todos os textos e interfaces do sistema serão traduzidos e apresentados em ambas as línguas, permitindo que os usuários escolham o idioma de sua preferência para navegação e interação com o conteúdo.)
 - O sistema será produzido ultilizando react
-- (O sistema será desenvolvido usando o framework React. Isso implica que a construção da interface de usuário e a lógica do sistema serão baseadas nessa tecnologia, aproveitando suas funcionalidades para criar uma experiência de usuário dinâmica e responsiva.)
+ ( O sistema será desenvolvido usando o framework React. Isso implica que a construção da interface de usuário e a lógica do sistema serão baseadas nessa tecnologia, aproveitando suas funcionalidades para criar uma experiência de usuário dinâmica e responsiva.)
 - O sistema irá aderir a identidade visual da faculdade.
-- (O sistema deve seguir as diretrizes e padrões de identidade visual da faculdade Ibmec. Isso inclui o uso de cores, logotipos, tipografias e outros elementos gráficos que estejam alinhados com a marca e a identidade visual da instituição para garantir consistência e reconhecimento visual.)
+ ( O sistema deve seguir as diretrizes e padrões de identidade visual da faculdade Ibmec. Isso inclui o uso de cores, logotipos, tipografias e outros elementos gráficos que estejam alinhados com a marca e a identidade visual da instituição para garantir consistência e reconhecimento visual.)
 - Apenas o administrador sera capaz de organizar de modificar coisas no sistema.
-- (Apenas o administrador do sistema terá permissão para organizar e modificar os conteúdos e as configurações do sistema. Isso garante que as alterações sejam controladas e realizadas por uma pessoa autorizada, mantendo a integridade e a segurança do sistema.)
+( Apenas o administrador do sistema terá permissão para organizar e modificar os conteúdos e as configurações do sistema. Isso garante que as alterações sejam controladas e realizadas por uma pessoa autorizada, mantendo a integridade e a segurança do sistema.)
 - O sistema terá acesso tanto mobile quanto pelo computador.
-- (O sistema deve ser acessível e funcional tanto em dispositivos móveis quanto em computadores. Isso significa que a interface e a experiência do usuário devem ser otimizadas para diferentes tamanhos de tela e dispositivos, proporcionando uma navegação eficiente e agradável em todas as plataformas.)
+  ( O sistema deve ser acessível e funcional tanto em dispositivos móveis quanto em computadores. Isso significa que a interface e a experiência do usuário devem ser otimizadas para diferentes tamanhos de tela e dispositivos, proporcionando uma navegação eficiente e agradável em todas as plataformas.)
 
 
 
