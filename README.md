@@ -33,18 +33,34 @@ Se trata de uma metodologia utilizada por algumas empresas como uma forma de org
    Organizando o portifólio para que empresas consigam achar exatamente o que querem direto na ibmec, trazendo visibilidade e praticidade. O sistema deve saber mostrar muito e ser montado visando chamar atenção. O sistema sera produzido usando o react.
 
 
-
 # Requisitos funcionais e descrição
 - O sistema proporcionará trabalhos e projetos feitos em todos os cursos da ibmec.
-  (uma imagem referente ao projeto e mostrar a maior quantidade possivel de informações)
+  
+  (Uma imagem referente ao projeto e mostrar a maior quantidade possivel de informações de forma organizada e acessível aos usuários.)
+
+ 
 - O sistema deverá apresentar uma lista de Projetos de alunos
+  (No sistema, antes de acessar o detalhamento do projeto o nome do aluno que o realizou será mostrado da maneira que ele preferir ser identificado. Ao clicar no projeto será possivel ver seu detelhamento com o maximo de informações possiveis.)
+  
 - O sistema possuirá a opção de carregar mais.
+  (O sistema terá paginação e um botão para carregar mais e essa funcionalidade será útil para visualizar uma quantidade maior de projetos sem sobrecarregar a página inicial.
+  
 - O sistema deverá possuir Identificação Visual dos Projetos
+  (Uma imagem representativa ou um ícone. Isso ajuda os usuários a reconhecer e distinguir visualmente cada projeto de maneira intuitiva.)
+  
 - O sistema não possui sistema de login e senha.
+  (Assim, não há necessidade de criar ou gerenciar contas de login do sistema para acessar os projetos e informações disponibilizadas.)
+  
 - O sistema possuirá uma lista apenas de projetos com opcão de clicar e exibir a descrição de cada projeto.
+  (ao clicar em um projeto para ver o detalhamento outra pagina é aberta e terá um link para voltar pra página principal e sair do detalhamento de um projeto voltando para a pagina anterior (mesma listagem). )
+  
 - Em sua primeira pagina o sistema possuira uma descrição do projeto, uma imagem, os nomes e matriculas dos alunos que fizeram, as 
  ferramentas e linguagens usadas.
-- No sistema, sera possivel filtrar entre os cursos disponiveis na faculdade.
+  (No sistema o cliente poderá ver o máximo de informações possiveis do projeto, onde terá imagens do projeto identificação de quem realizou e ferramentas e linguagens ultilizadas)
+
+- No sistema, será possivel filtrar entre os cursos disponiveis na faculdade.
+  ( Esse filtro facilita a busca de projetos relacionados a um curso específico dentro da faculdade. No sistema sera possivel filtrar por curso, periodo, unidade da ibmec e tecnologias)
+  
   
 # Requisitos não funcionais 
 - O sistema possuirá tradução em inglês e portugues.
