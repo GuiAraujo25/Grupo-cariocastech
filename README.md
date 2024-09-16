@@ -40,25 +40,32 @@ Se trata de uma metodologia utilizada por algumas empresas como uma forma de org
 
  
 - O sistema deverá apresentar uma lista de Projetos de alunos
+  
   (No sistema, antes de acessar o detalhamento do projeto o nome do aluno que o realizou será mostrado da maneira que ele preferir ser identificado. Ao clicar no projeto será possivel ver seu detelhamento com o maximo de informações possiveis.)
   
 - O sistema possuirá a opção de carregar mais.
-  (O sistema terá paginação e um botão para carregar mais e essa funcionalidade será útil para visualizar uma quantidade maior de projetos sem sobrecarregar a página inicial.
+  
+  (O sistema terá paginação e um botão para carregar mais e essa funcionalidade será útil para visualizar uma quantidade maior de projetos sem sobrecarregar a página inicial.)
   
 - O sistema deverá possuir Identificação Visual dos Projetos
+  
   (Uma imagem representativa ou um ícone. Isso ajuda os usuários a reconhecer e distinguir visualmente cada projeto de maneira intuitiva.)
   
 - O sistema não possui sistema de login e senha.
+  
   (Assim, não há necessidade de criar ou gerenciar contas de login do sistema para acessar os projetos e informações disponibilizadas.)
   
 - O sistema possuirá uma lista apenas de projetos com opcão de clicar e exibir a descrição de cada projeto.
+  
   (ao clicar em um projeto para ver o detalhamento outra pagina é aberta e terá um link para voltar pra página principal e sair do detalhamento de um projeto voltando para a pagina anterior (mesma listagem). )
   
 - Em sua primeira pagina o sistema possuira uma descrição do projeto, uma imagem, os nomes e matriculas dos alunos que fizeram, as 
  ferramentas e linguagens usadas.
+
   (No sistema o cliente poderá ver o máximo de informações possiveis do projeto, onde terá imagens do projeto identificação de quem realizou e ferramentas e linguagens ultilizadas)
 
 - No sistema, será possivel filtrar entre os cursos disponiveis na faculdade.
+  
   ( Esse filtro facilita a busca de projetos relacionados a um curso específico dentro da faculdade. No sistema sera possivel filtrar por curso, periodo, unidade da ibmec e tecnologias)
   
   
@@ -97,35 +104,6 @@ Se trata de uma metodologia utilizada por algumas empresas como uma forma de org
 
 
 
-
-
-
-O sistema deve fornecer acesso a trabalhos e projetos desenvolvidos pelos alunos em todos os cursos oferecidos pela faculdade Ibmec. Esses projetos serão apresentados de forma organizada e acessível aos usuários.
-Lista de Projetos de Alunos
-
-O sistema deve exibir uma lista de projetos realizados pelos alunos. Cada item na lista deve representar um projeto individual e deve permitir ao usuário visualizar informações detalhadas sobre esse projeto.
-Opção de "Carregar Mais"
-
-A interface deve incluir um botão ou link que permita ao usuário carregar mais projetos além dos inicialmente exibidos. Essa funcionalidade é útil para visualizar uma quantidade maior de projetos sem sobrecarregar a página inicial.
-Identificação Visual dos Projetos
-
-Cada projeto na lista deve ter uma identificação visual clara, como uma imagem representativa ou um ícone. Isso ajuda os usuários a reconhecer e distinguir visualmente cada projeto de maneira intuitiva.
-Sistema Sem Login e Senha
-
-O sistema não requer autenticação de usuários. Assim, não há necessidade de criar ou gerenciar contas de login e senha para acessar os projetos e informações disponibilizadas.
-Lista de Projetos com Descrição Detalhada
-
-A lista de projetos deve incluir a opção de clicar em cada item para exibir uma descrição detalhada do projeto. Esta descrição pode incluir informações sobre o projeto, suas características e outros detalhes relevantes.
-Página Inicial com Informações do Projeto
-
-A página inicial do sistema deve apresentar as seguintes informações para cada projeto:
-Uma breve descrição do projeto.
-Uma imagem representativa do projeto.
-Nomes e matrículas dos alunos envolvidos na realização do projeto.
-Ferramentas e linguagens utilizadas no projeto.
-Filtro por Curso
-
-O sistema deve incluir uma funcionalidade de filtro que permita aos usuários selecionar e visualizar projetos com base no curso específico. Esse filtro facilita a busca de projetos relacionados a um curso específico dentro da faculdade.
 
 
 
