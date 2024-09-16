@@ -34,8 +34,9 @@ Se trata de uma metodologia utilizada por algumas empresas como uma forma de org
 
 
 
-# Requisitos funcionais
+# Requisitos funcionais e descrição
 - O sistema proporcionará trabalhos e projetos feitos em todos os cursos da ibmec.
+  (uma imagem referente ao projeto e mostrar a maior quantidade possivel de informações)
 - O sistema deverá apresentar uma lista de Projetos de alunos
 - O sistema possuirá a opção de carregar mais.
 - O sistema deverá possuir Identificação Visual dos Projetos
