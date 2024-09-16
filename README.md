@@ -54,8 +54,11 @@ Se trata de uma metodologia utilizada por algumas empresas como uma forma de org
 
 
 # Casos de uso
--Exibir detalhes de um projeto
+-Exibir detalhes de um projeto 
+
 -Fazer login de admin
+
 -Alterar um projeto  (adm)
+
 -Exibir uma area de colaboradores do site
 
