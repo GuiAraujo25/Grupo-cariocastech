@@ -49,15 +49,16 @@ Se trata de uma metodologia utilizada por algumas empresas como uma forma de org
   
 - O sistema deverá possuir Identificação Visual dos Projetos
   
-  (Uma imagem representativa ou um ícone. Isso ajuda os usuários a reconhecer e distinguir visualmente cada projeto de maneira intuitiva.)
+  (Uma imagem representativa ou um ícone. Isso ajuda os usuários a reconhecer e diferenciar os projetos.)
   
 - O sistema não possui sistema de login e senha.
   
   (Assim, não há necessidade de criar ou gerenciar contas de login do sistema para acessar os projetos e informações disponibilizadas.)
   
-- O sistema possuirá uma lista apenas de projetos com opcão de clicar e exibir a descrição de cada projeto.
-  
-  (ao clicar em um projeto para ver o detalhamento outra pagina é aberta e terá um link para voltar pra página principal e sair do detalhamento de um projeto voltando para a pagina anterior (mesma listagem).) 
+- O sistema possuirá uma lista apenas de projetos com opcão de clicar e exibir a descrição de cada projeto.  **
+
+(O sistema tera um botao clicavel que encaminhara o cliente para o detalhamento do projeto por meio de abertura de uma nova página com mais informaçoes. Tambem terá um link para voltar pra página principal e sair do detalhamento de um projeto voltando para a pagina anterior (mesma listagem).) 
+
   
 - Em sua primeira pagina o sistema possuira uma descrição do projeto, uma imagem, os nomes e matriculas dos alunos que fizeram, as 
  ferramentas e linguagens usadas.
