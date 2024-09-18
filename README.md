@@ -91,7 +91,7 @@ Se trata de uma metodologia utilizada por algumas empresas como uma forma de org
 - O sistema irá aderir a identidade visual da faculdade.
 
   - O sistema deve seguir as diretrizes e padrões de identidade visual da faculdade Ibmec. Isso inclui o uso de cores, logotipos, tipografias e outros elementos gráficos que estejam alinhados com a marca e a identidade visual da instituição para garantir consistência e reconhecimento visual.
-- Nesse caso o sistema irá ser feito com a paleta de cores amarelo e azul escuro que é a paleta do Ibmec
+  - Nesse caso o sistema irá ser feito com a paleta de cores amarelo e azul escuro que é a paleta do Ibmec
 
 - Apenas o administrador sera capaz de organizar de modificar coisas no sistema.
 
@@ -100,7 +100,7 @@ Se trata de uma metodologia utilizada por algumas empresas como uma forma de org
 - O sistema terá acesso tanto mobile quanto pelo computador.
 
   - O sistema deve ser acessível e funcional tanto em dispositivos móveis quanto em computadores. Isso significa que a interface e a experiência do usuário devem ser otimizadas para diferentes tamanhos de tela e dispositivos, proporcionando uma navegação eficiente e agradável em todas as plataformas.
--  Para fazer isso vai ser necessário testar as funcionalidades em mobile e em computador.
+  -  Para fazer isso vai ser necessário testar as funcionalidades em mobile e em computador.
 
 # Casos de uso
 -Exibir detalhes de um projeto 
