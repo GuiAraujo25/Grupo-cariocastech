@@ -1,8 +1,8 @@
 # Casos de uso
 
-## Exibir detalhes de um projeto
-* Ator:
-* Pré condição: 
+## Ver detalhes de um projeto
+* Ator: Professores, alunos, empresas, etc...
+* Pré condição: Entrar no sistema
 * Fluxo principal: 
 * Pós condição:
 
