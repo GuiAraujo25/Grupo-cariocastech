@@ -3,8 +3,10 @@
 ## Ver detalhes de um projeto
 * Ator: Professores, alunos, empresas, etc...
 * Pré condição: Entrar no sistema
-* Fluxo principal: 
-* Pós condição:
+* Fluxo principal:
+  - O usuario entra na aba de projétos
+  - Clica na imagem ou nome do projéto desejado
+* Pós condição: O sistema vai abrir uma página contendo as descrições e detalhamentos do projeto
 
 ## Fazer login de admin
 * Ator:
