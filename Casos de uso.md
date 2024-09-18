@@ -57,8 +57,8 @@
   - O administrador deverá clicar no botão de "logout" no canto superior da tela
   - O sistema finaliza a sessão do administrador
 * Pós condição:
- - O administrador estará desconectado do sistema
- - O sistema retorna a tela inicial
+  - O administrador estará desconectado do sistema
+  - O sistema retorna a tela inicial
 
 ## Pesquisar projetos
 * Ator: Usuarios visitantes (alunos, empresas, etc) e administrador 
