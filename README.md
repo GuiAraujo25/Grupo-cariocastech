@@ -35,9 +35,8 @@ Se trata de uma metodologia utilizada por algumas empresas como uma forma de org
 
 # Requisitos funcionais e descrição
 - O sistema proporcionará trabalhos e projetos feitos em todos os cursos da IBMEC.
-- 
-   . Uma imagem referente ao projeto e mostrar a maior quantidade possível de informações de forma organizada e acessível aos usuários para 
-   . Ao acessar no celular mostrará somente um projeto por página (tela do smartphone é menor) 
+   - Uma imagem referente ao projeto e mostrar a maior quantidade possível de informações de forma organizada e acessível aos usuários para 
+   - Ao acessar no celular mostrará somente um projeto por página (tela do smartphone é menor) 
 
  
 - O sistema deverá apresentar uma lista de Projetos de alunos
