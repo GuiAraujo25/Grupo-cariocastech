@@ -89,7 +89,7 @@ Se trata de uma metodologia utilizada por algumas empresas como uma forma de org
 
    - O sistema deve oferecer suporte a dois idiomas: inglês e português. Isso significa que todos os textos e interfaces do sistema serão traduzidos e apresentados em ambas as línguas, permitindo que os usuários escolham o idioma de sua preferência para navegação e interação com o conteúdo. 
    - Haverá um botão de trocar idioma no canto da tela 
-   - Quando a opção inglês estiver ativa, o btão se chamará switch languages
+   - Quando a opção inglês estiver ativa, o botão se chamará switch languages
 
 - O sistema será produzido ultilizando react
 
