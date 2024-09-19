@@ -22,17 +22,8 @@ Eduardo Andrade https://github.com/eduardoandrade22/front-end
  https://github.com/GuiAraujo25/Grupo-cariocastech/blob/main/projetos/Requisitos%20n%C3%A3o%20funcionais.md
 
 # Casos de uso
--Exibir detalhes de um projeto 
 
--Fazer login de admin
-
--Alterar um projeto  (adm)
-
--Exibir uma area de colaboradores do site
-
--Remover projetos
-
--Adm fazer logout
+https://github.com/GuiAraujo25/Grupo-cariocastech/blob/main/projetos/casos%20%20de%20uso.md
 
 
 
