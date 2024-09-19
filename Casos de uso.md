@@ -29,7 +29,7 @@
 ## Entrar na area "sobre nós"
 * Ator:  Usuarios visitantes (alunos, empresas, etc) e administrador 
 * Pré condição:
-  - O usuario deve estar logado no site
+  - O usuario deve entrar no site
   - O sistema deve conter um botão que leve para a aba que contém as informações dos colaboradores
 * Fluxo principal:
   - O usuario entra no site
