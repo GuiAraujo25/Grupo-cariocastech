@@ -8,9 +8,9 @@
 
   - Eduardo Andrade https://github.com/eduardoandrade22/front-end
 
-# 5W2H
+# Propósito do sistema
 
-- https://github.com/GuiAraujo25/Grupo-cariocastech/blob/main/projetos/5W2H.md
+- [5W2H](https://github.com/GuiAraujo25/Grupo-cariocastech/blob/main/projetos/5W2H.md)
 
 
 # Requisitos funcionais e descrição
