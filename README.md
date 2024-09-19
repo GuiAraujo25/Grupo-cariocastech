@@ -15,16 +15,16 @@
 
 # Requisitos funcionais e descrição
 
-- https://github.com/GuiAraujo25/Grupo-cariocastech/blob/main/projetos/Requisitos%20funcionais.md 
+- [Requisitos func](https://github.com/GuiAraujo25/Grupo-cariocastech/blob/main/projetos/Requisitos%20funcionais.md)
   
 
 # Requisitos não funcionais 
 
- https://github.com/GuiAraujo25/Grupo-cariocastech/blob/main/projetos/Requisitos%20n%C3%A3o%20funcionais.md
+ - [Requisitos não func](https://github.com/GuiAraujo25/Grupo-cariocastech/blob/main/projetos/Requisitos%20n%C3%A3o%20funcionais.md)
 
 # Casos de uso
 
-https://github.com/GuiAraujo25/Grupo-cariocastech/blob/main/projetos/casos%20%20de%20uso.md
+- [Casos de uso](https://github.com/GuiAraujo25/Grupo-cariocastech/blob/main/projetos/casos%20%20de%20uso.md)
 
 
 
