@@ -34,43 +34,50 @@ Se trata de uma metodologia utilizada por algumas empresas como uma forma de org
 
 
 # Requisitos funcionais e descrição
-- O sistema proporcionará trabalhos e projetos feitos em todos os cursos da IBMEC.
-   - Uma imagem referente ao projeto e mostrar a maior quantidade possível de informações de forma organizada e acessível aos usuários para 
-   - Ao acessar no celular mostrará somente um projeto por página (tela do smartphone é menor) 
 
- 
 - O sistema deverá apresentar uma lista de Projetos de alunos
-  - apresentar essa listagem por meio de paginação.
-  - No sistema, antes de visualizar os detalhes do projeto, o nome do aluno que o criou será exibido conforme sua preferência de identificação. Ao clicar no projeto, será possível acessar seu histórico com o 
-  maior número de informações disponíveis.
+  - O sistema deve apresentar a listagem por meio de paginação.
+  - O sistema deve separar a listagem em colunas, sendo:
+    - Até 8 para computadores
+    - 1 para dispositivo mobile
 
+- O sistema deverá possuir um sistema de páginação para exibir os projetos
+  - O sitema deve apresentar umas listagem infinita por meio de paginação com até 20 projetos por página
+  - O sistema deve ser capaz de navegar atravésd dessas páginas livremente 
 
   
 - O sistema possuirá a opção de carregar mais.
-  - O sistema contará com um botão, localizado no final da página para carregar mais projetos. Essa abordagem permitirá aos usuários explorar uma quantidade maior de projetos de maneira eficiente, evitando a sobrecarga da página inicial e melhorando a experiência de navegação
+  - O sistema contará com um botão ao final da página para carregar mais projetos.
+  - Esse botão deve permitir que o ususario explorare uma quantidade maior de projetos de maneira eficiente, evitando a sobrecarga da página inicial e melhorando a experiência de navegação
 
 
   
 - O sistema deverá possuir Identificação Visual dos Projetos
-  - Uma imagem ilustrativa ou um ícone. Isso auxilia os usuários a identificar e distinguir os projetos.
-  - Cada projeto poderá conter imagens do processo de desenvolvimento dele, do resultado final, etc.
+  - O sistema deve posuir Uma imagem ilustrativa ou um ícone para cada projeto. 
+  - O sistema deve conter imagens do processo de desenvolvimento dos projetos, do resultado final, etc.
 
   
 - O sistema não possui sistema de login e senha.
   - O sistema no terá necessidade de criar ou gerenciar contas de login do sistema para acessar os projetos e informações disponibilizadas.
 
   
-- O sistema possuirá uma lista apenas de projetos com opção de clicar e exibir a descrição de cada projeto.
+- O sistema possuirá opção de clicar e exibir a descrição de cada projeto.
   - O sistema terá um botão para clicar que encaminhara o cliente para o detalhamento do projeto por meio de abertura de uma nova página com mais informações. 
   - O sistema terá um link para voltar pra página principal e sair do detalhamento de um projeto voltando para a pagina anterior (mesma listagem). 
 
   
-- Em sua primeira pagina o sistema possuirá uma descrição do projeto, uma imagem, os nomes e matriculas dos alunos que fizeram, as 
+- O sistema possuirá em sua tela inicial uma descrição do sistema.
+  - Essas ferramentas serão mostradas na tela de fácil visibilidade para facilitar a identificação.
+  - O sistema deve apresentar uma imagem, os nomes e matriculas dos alunos que fizeram, as 
  ferramentas e linguagens usadas.
-  - Essas ferramentas serão mostradas na tela de fácil visibilidade para facilitar a identificação. 
   
-- No sistema, será possível filtrar entre os cursos disponíveis na faculdade.
-  - O sistema terá um filtro no seu canto superior de curso, período, tecnologias e unidade da faculdade, a fim de facilitar a busca por um projeto específico dentro da faculdade 
+- No sistema, será possível filtrar entre projetos.
+  - O sistema deve possuir um filtro no seu canto superior da tela
+  - O filtro deve possuir opções de
+  - curso
+  - período
+  - tecnologias
+  - unidade da faculdade 
   - O sistema terá um botão ao lado da seleção de filtros onde será possível limpar a pesquisa, facilitando o acesso para busca de diversos projetos. 
   
  
