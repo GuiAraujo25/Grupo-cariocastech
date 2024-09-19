@@ -10,7 +10,7 @@
 
 ## Fazer login de admm
 * Ator: Administrador
-* Pré condição: Saber o link que leve direto para a página de login que não estará disponivel no sistema
+* Pré condição: Estar na página de login do adm
 * Fluxo principal:
   - O administrador entra na página de login
   - O administrador insere seu login e senha 
@@ -29,7 +29,7 @@
 ## Entrar na area "sobre nós"
 * Ator:  Usuarios visitantes (alunos, empresas, etc) e administrador 
 * Pré condição:
-  - O usuario deve entrar no site
+  - O usuario deve estar no site
   - O sistema deve conter um botão que leve para a aba que contém as informações dos colaboradores
 * Fluxo principal:
   - O usuario entra no site
@@ -63,7 +63,7 @@
 ## Pesquisar projetos
 * Ator: Usuarios visitantes (alunos, empresas, etc) e administrador 
 * Pré condição:
-  - O usuario deverá ter acesso ao sistema
+  - O usuario deverá estar no sistema
   - O sistema deve conter os projetos
 * Fluxo principal:
   - O usuario acessa o sitema
