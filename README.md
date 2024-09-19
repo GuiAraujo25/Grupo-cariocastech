@@ -10,21 +10,21 @@
 
 ## Propósito do sistema
 
-- [5W2H](https://github.com/GuiAraujo25/Grupo-cariocastech/blob/main/projetos/5W2H.md)
+- Link: [5W2H](https://github.com/GuiAraujo25/Grupo-cariocastech/blob/main/projetos/5W2H.md)
 
 
 ## Requisitos funcionais e descrição
 
-- [Req funcionais](https://github.com/GuiAraujo25/Grupo-cariocastech/blob/main/projetos/Requisitos%20funcionais.md)
+- Link: [Req funcionais](https://github.com/GuiAraujo25/Grupo-cariocastech/blob/main/projetos/Requisitos%20funcionais.md)
   
 
 ## Requisitos não funcionais 
 
- - [Req não funcionais](https://github.com/GuiAraujo25/Grupo-cariocastech/blob/main/projetos/Requisitos%20n%C3%A3o%20funcionais.md)
+ - Link: [Req não funcionais](https://github.com/GuiAraujo25/Grupo-cariocastech/blob/main/projetos/Requisitos%20n%C3%A3o%20funcionais.md)
 
 ## Casos de uso
 
-- [Casos de uso](https://github.com/GuiAraujo25/Grupo-cariocastech/blob/main/projetos/casos%20%20de%20uso.md)
+- Link: [Casos de uso](https://github.com/GuiAraujo25/Grupo-cariocastech/blob/main/projetos/casos%20%20de%20uso.md)
 
 
 
