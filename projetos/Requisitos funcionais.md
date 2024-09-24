@@ -43,4 +43,4 @@
   - período
   - tecnologias
   - unidade da faculdade 
-  - O sistema terá um botão ao lado da seleção de filtros onde será possível limpar a pesquisa, facilitando o acesso para busca de diversos projetos. 
+  - O sistema terá um botão em baixo da seleção de filtros onde será possível limpar a pesquisa, facilitando o acesso para busca de diversos projetos. 
