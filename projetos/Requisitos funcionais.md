@@ -12,7 +12,7 @@
 
   
 - O sistema possuirá a opção de carregar mais.
-  - O sistema contará com um botão ao final da página para carregar mais projetos.
+  - O sistema deve contar com um botão ao final da página para carregar mais projetos.
   - Esse botão deve permitir que o ususario explorare uma quantidade maior de projetos de maneira eficiente, evitando a sobrecarga da página inicial e melhorando a experiência de navegação
 
 
@@ -27,14 +27,18 @@
 
   
 - O sistema possuirá opção de clicar e exibir a descrição de cada projeto.
-  - O sistema terá um botão para clicar que encaminhara o cliente para o detalhamento do projeto por meio de abertura de uma nova página com mais informações. 
-  - O sistema terá um link para voltar pra página principal e sair do detalhamento de um projeto voltando para a pagina anterior (mesma listagem). 
+  - O sistema deve ter um botão para clicar que encaminhara o cliente para o detalhamento do projeto por meio de abertura de uma nova página com mais informações. 
+  - O sistema deve ter um link para voltar pra página principal e sair do detalhamento de um projeto voltando para a pagina anterior (mesma listagem). 
 
   
 - O sistema possuirá em sua tela inicial uma descrição do sistema.
-  - Essas ferramentas serão mostradas na tela de fácil visibilidade para facilitar a identificação.
-  - O sistema deve apresentar uma imagem, os nomes e matriculas dos alunos que fizeram, as 
- ferramentas e linguagens usadas.
+  - Ao entrar no sitema, ele deve mostrar em seu canto inferior uma descrição, contendo:
+    - Nome dos colaboradores e matriculas
+    - ferramentas usadas
+    - Linguagnes de programação utilizadas
+    - A data de inicio e fim do projeto
+    - Uma imagem do sistema
+ 
   
 - No sistema, será possível filtrar entre projetos.
   - O sistema deve possuir um filtro no seu canto superior da tela
