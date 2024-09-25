@@ -1,6 +1,6 @@
 # Requisitos não funcionais 
 
- - O sistema possuira tradução em inglês e portugûes
+ - O sistema possuira tradução em inglês e português
   
    - O sistema deve possuir a funcionalidade de mudação da linguagem para facilitar a visualização por possíveis estrangeiros.  
    - Haverá um botão de trocar idioma no canto superior da tela. 
