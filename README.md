@@ -24,13 +24,13 @@
 
 ## Casos de uso
 
-- Link: [Pesquisar projetos]([https://github.com/GuiAraujo25/Grupo-cariocastech/blob/main/projetos/casos%20%20de%20uso.md](https://github.com/GuiAraujo25/Grupo-cariocastech/blob/main/projetos/Casos%20de%20uso%20-%20pesquisar.md))
-- Link: [Entrar na area "sobre nós"]([[https://github.com/GuiAraujo25/Grupo-cariocastech/blob/main/projetos/casos%20%20de%20uso.md](https://github.com/GuiAraujo25/Grupo-cariocastech/blob/main/projetos/Casos%20de%20uso%20-%20pesquisar.md)](https://github.com/GuiAraujo25/Grupo-cariocastech/blob/main/projetos/Casos%20de%20uso%20-%20sobre%20nós.md))
-- Link: [Fazer login de adm]([[https://github.com/GuiAraujo25/Grupo-cariocastech/blob/main/projetos/casos%20%20de%20uso.md](https://github.com/GuiAraujo25/Grupo-cariocastech/blob/main/projetos/Casos%20de%20uso%20-%20pesquisar.md)](https://github.com/GuiAraujo25/Grupo-cariocastech/blob/main/projetos/caso%20de%20uso%20-%20fazer%20login.md))
-- Link: [Ver detalhes de um projeto]([[https://github.com/GuiAraujo25/Grupo-cariocastech/blob/main/projetos/casos%20%20de%20uso.md](https://github.com/GuiAraujo25/Grupo-cariocastech/blob/main/projetos/Casos%20de%20uso%20-%20pesquisar.md)](https://github.com/GuiAraujo25/Grupo-cariocastech/blob/main/projetos/casos%20%20de%20uso%20-%20detalhes.md))
-- Link: [Editar projetos]([[https://github.com/GuiAraujo25/Grupo-cariocastech/blob/main/projetos/casos%20%20de%20uso.md](https://github.com/GuiAraujo25/Grupo-cariocastech/blob/main/projetos/Casos%20de%20uso%20-%20pesquisar.md)](https://github.com/GuiAraujo25/Grupo-cariocastech/blob/main/projetos/casos%20de%20uso%20-%20editar%20projeto.md))
-- Link: [Logout de adm]([[https://github.com/GuiAraujo25/Grupo-cariocastech/blob/main/projetos/casos%20%20de%20uso.md](https://github.com/GuiAraujo25/Grupo-cariocastech/blob/main/projetos/Casos%20de%20uso%20-%20pesquisar.md)](https://github.com/GuiAraujo25/Grupo-cariocastech/blob/main/projetos/casos%20de%20uso%20-%20logout.md))
-- Link: [Remover projetos]([[https://github.com/GuiAraujo25/Grupo-cariocastech/blob/main/projetos/casos%20%20de%20uso.md](https://github.com/GuiAraujo25/Grupo-cariocastech/blob/main/projetos/Casos%20de%20uso%20-%20pesquisar.md)](https://github.com/GuiAraujo25/Grupo-cariocastech/blob/main/projetos/casos%20de%20uso%20-%20remover%20proj.md))
+- Link: [Pesquisar projetos](https://github.com/GuiAraujo25/Grupo-cariocastech/blob/main/projetos/casos%20%20de%20uso.md)
+- Link: [Entrar na area "sobre nós"](https://github.com/GuiAraujo25/Grupo-cariocastech/blob/main/projetos/Casos%20de%20uso%20-%20sobre%20nós.md)
+- Link: [Fazer login de adm](https://github.com/GuiAraujo25/Grupo-cariocastech/blob/main/projetos/caso%20de%20uso%20-%20fazer%20login.md)
+- Link: [Ver detalhes de um projeto](https://github.com/GuiAraujo25/Grupo-cariocastech/blob/main/projetos/casos%20%20de%20uso%20-%20detalhes.md)
+- Link: [Editar projetos](https://github.com/GuiAraujo25/Grupo-cariocastech/blob/main/projetos/casos%20de%20uso%20-%20editar%20projeto.md)
+- Link: [Logout de adm](https://github.com/GuiAraujo25/Grupo-cariocastech/blob/main/projetos/casos%20de%20uso%20-%20logout.md)
+- Link: [Remover projetos](https://github.com/GuiAraujo25/Grupo-cariocastech/blob/main/projetos/casos%20de%20uso%20-%20remover%20proj.md)
 
 
 
