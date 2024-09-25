@@ -1,4 +1,4 @@
-## Fazer login de admm
+## Fazer login de adm
 * Ator: Administrador
 * Pré condição: Estar na página de login do adm
 * Fluxo principal:
