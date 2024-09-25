@@ -1,24 +1,30 @@
 # Requisitos não funcionais 
 
  - O sistema possuira tradução em inglês e portugûes
-
-   - Haverá um botão de trocar idioma no canto da tela 
-   - Quando a opção inglês estiver ativa, o botão se chamará switch languages
-
-- O sistema será produzido ultilizando react
-
   
+   - O sistema deve possuir a funcionalidade de mudação da linguagem para facilitar a visualização por possíveis estrangeiros.  
+   - Haverá um botão de trocar idioma no canto superior da tela. 
+   - Quando a opção inglês estiver ativa, o botão se chamará switch languages.
+  
+     
+- O sistema será produzido ultilizando react
+  
+  - A utilização de React garantirá uma experiência de usuário fluida e eficiente, otimizando o desempenho do sistema.
+  - o sistema terá uma estrutura organizada e bem estilizada ultilizando o react.
 
 - O sistema irá aderir a identidade visual da faculdade.
-
-  - O sistema deve seguir as diretrizes e padrões de identidade visual da faculdade Ibmec. Isso inclui o uso de cores, logotipos, tipografias e outros elementos gráficos que estejam alinhados com a marca e a identidade visual da instituição para garantir consistência e reconhecimento visual.
-  - Nesse caso o sistema irá ser feito com a paleta de cores amarelo e azul escuro que é a paleta do Ibmec
+  
+  - O sistema deve ter uma paleta de cores inspirada nas tonalidades do IBMEC.
+  - O sistema será feito com a paleta de cores amarelo e azul escuro e branco que são as paletas de cores da IBMEC.
 
 - Apenas o administrador sera capaz de organizar de modificar coisas no sistema.
-
+  
+  - área de login que somente o adm será capaz de acessar.
+  - Somente o adm conseguirá clicar em um icone (esse icone será um lapís) que o permitirá editar os projetos do sistema.
+  - Esse ícone de acesso será exclusivo para o administrador e estará localizado no canto superior de cada projeto.
  
 
 - O sistema terá acesso tanto mobile quanto pelo computador.
-
-  - O sistema deve ser acessível e funcional tanto em dispositivos móveis quanto em computadores. Isso significa que a interface e a experiência do usuário devem ser otimizadas para diferentes tamanhos de tela e dispositivos.
-  -  Para fazer isso vai ser necessário testar as funcionalidades em mobile e em computador.
+ 
+  - O sistema deverá funcionar em aparelhos mobiles e computadores.
+  - O sistema deverá aderir as necessidades das diferentes resoluçoes de tela.
