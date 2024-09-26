@@ -7,16 +7,10 @@
     - 1 para dispositivo mobile
 
 - O sistema deverá possuir um sistema de páginação para exibir os projetos
-  - O sitema deve apresentar umas listagem infinita por meio de paginação com até 20 projetos por página
-  - O sistema deve ser capaz de navegar atravésd dessas páginas livremente 
+  - O sitema deve apresentar umas listagem infinita por meio de paginação
+  - O sistema deve ser capaz de navegar através dessas páginas livremente 
 
-  
-- O sistema possuirá a opção de carregar mais.
-  - O sistema deve contar com um botão ao final da página para carregar mais projetos.
-  - Esse botão deve permitir que o ususario explorare uma quantidade maior de projetos de maneira eficiente, evitando a sobrecarga da página inicial e melhorando a experiência de navegação
-
-
-  
+ 
 - O sistema deverá possuir Identificação Visual dos Projetos
   - O sistema deve posuir Uma imagem ilustrativa ou um ícone para cada projeto. 
   - O sistema deve conter imagens do processo de desenvolvimento dos projetos, do resultado final, etc.
