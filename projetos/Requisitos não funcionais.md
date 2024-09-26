@@ -13,8 +13,8 @@
  
  - O sistema será produzido ultilizando react
   
-  - A utilização de React garantirá uma experiência de usuário fluida e eficiente, otimizando o desempenho do sistema.
-  - o sistema terá uma estrutura organizada e bem estilizada ultilizando o react.
+   - A utilização de React garantirá uma experiência de usuário fluida e eficiente, otimizando o desempenho do sistema.
+   - o sistema terá uma estrutura organizada e bem estilizada ultilizando o react.
 
 - Apenas o administrador sera capaz de organizar de modificar coisas no sistema.
   
