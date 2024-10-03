@@ -2,7 +2,7 @@
 ## Integrantes 
  - Guilherme Pardelhas https://github.com/GuiAraujo25/front-end
 
-  - Bernardo Ottan  https://github.com/berna-ottan/front.end
+  - Bernardo Ottan  https://github.com/berna-ottan/react-base-project.git
 
   - Eduardo Jacob Pontes https://github.com/EduardoJacobPontes/react-base-project.git
 
