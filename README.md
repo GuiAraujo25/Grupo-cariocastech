@@ -6,7 +6,7 @@
 
   - Eduardo Jacob Pontes https://github.com/EduardoJacobPontes/react-base-project.git
 
-  - Eduardo Andrade https://github.com/eduardoandrade22/front-end
+  - Eduardo Andrade https://github.com/eduardoandrade22/react-base-project.git
 
 ## Propósito do sistema
 
