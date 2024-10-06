@@ -18,7 +18,7 @@
 - Link: [Req funcionais](https://github.com/GuiAraujo25/Grupo-cariocastech/blob/main/projetos/Requisitos%20funcionais.md)
   
 
-## Requisitos não funcionais 
+## Requisitos não funcionais e descrição
 
  - Link: [Req não funcionais](https://github.com/GuiAraujo25/Grupo-cariocastech/blob/main/projetos/Requisitos%20n%C3%A3o%20funcionais.md)
 
