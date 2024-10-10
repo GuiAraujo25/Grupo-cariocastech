@@ -36,7 +36,13 @@
 
 ## Protótipo do sistema
 
- - link: https://www.figma.com/proto/XTnAfcSoGII4rr04cDlVvY/Untitled?node-id=0-1&t=ui9jtl8fabjXL5C5-1
+ - Link: [Slide]( https://www.figma.com/proto/XTnAfcSoGII4rr04cDlVvY/Untitled?node-id=0-1&t=ui9jtl8fabjXL5C5-1
+)
+ 
+
+## Apresentação 
+
+ - Link: [Slide](https://www.canva.com/design/DAGRynzL7YI/XWgevykFrY1Z7gmPjNXMLw/edit)
 
 
 
