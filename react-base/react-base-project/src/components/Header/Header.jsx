@@ -5,8 +5,10 @@ const Header = () => (
   <Top>
     <Link to="/">Home</Link>
     <Link to="/fotos">Fotos</Link>
-    <Link to="/atletas">Atletas</Link>
-    <Link to="/SobreNos">Sobre Nós</Link>
+    <Link to="/Sobre-nos">Sobre nós</Link>
+    <Link to="/Projetos">Projetos</Link>
+    <Link to="/Idioma">Idiomas</Link>
+
     { window.sessionStorage.getItem('accessToken')
     ? <Link to="/logout">Logout</Link>
     : <Link to="/login">Login</Link>
