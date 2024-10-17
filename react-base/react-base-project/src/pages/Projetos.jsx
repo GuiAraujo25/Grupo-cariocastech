@@ -4,8 +4,20 @@ import Base from "./Base";
 
 const dados = [
     {
-        titulo:"Cariocastech.",
-        texto:"Alunos da matéria de Front-end do professor Eduardo Mangeli e Estudantes do segundo período da Ibmec barra nos cursos de: Ciencias de dados, engenharia de software e engenharia da computação."
+        titulo:"Projeto 1.",
+        texto:"....."
+    },
+    {
+        titulo:"Projeto 2.",
+        texto:"....."
+    },
+    {
+        titulo:"Projeto 3.",
+        texto:"....."
+    },
+    {
+        titulo:"Projeto 4.",
+        texto:"....."
     },
 ]
 
@@ -26,3 +38,4 @@ const Projetos = () => (
 );
 
 export default Projetos;
+    
