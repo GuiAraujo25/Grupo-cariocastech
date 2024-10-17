@@ -4,13 +4,13 @@ import Base from "./Base";
 
 const dados = [
    { 
-    titulo:"um titulo de array",
-    texto:"um testo grande do array"
+    titulo:"Cariocastech",
+    texto:"Alunos de front-end da faculdade ibmec"
 
    },
    {  
-    titulo:"um outro titulo array",
-    texto:"um outro testo grande do array"
+    titulo:"Cursos",
+    texto:"Ciencias de dados, engenharia de software e engenharia de computação"
    },
 
 ]
