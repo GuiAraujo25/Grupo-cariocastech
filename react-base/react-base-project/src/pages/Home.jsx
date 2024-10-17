@@ -19,7 +19,7 @@ const Home = () => {
   return (
     <Base>
       <h1>
-     Aplicação React Base
+     Portifólio ibmec
       </h1>
     </Base>
   )
