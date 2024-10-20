@@ -49,7 +49,7 @@
 
 ## Link Notion
 
-- Link https://www.notion.so/70947c581a7f438abed63c9c72520deb?v=eb14b56060c44d5f8d2da36d1b79e3cc
+- Link: https://www.notion.so/70947c581a7f438abed63c9c72520deb?v=eb14b56060c44d5f8d2da36d1b79e3cc
 
 
 
