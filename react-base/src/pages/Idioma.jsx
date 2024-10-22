@@ -5,11 +5,14 @@ const Projetos = () => (
        <ListContainer>
        { 
          <form>
-             <button type="submit">Inglês</button>
+             <button type="submit">Inglês / portugues </button>
          </form>
        }
        </ListContainer>
     </Base>
 );
 
-export default Idioma;
+export default pt / ing;
+
+
+

@@ -1,38 +1,34 @@
-import Cartao from "../components/Cartao/Cartao";
+import React from 'react';
+import Cartao from "../components/Cartao/Cartao"; // Importa o componente Cartao
 import ListContainer from "../components/ListContainer/ListContainer";
 import Base from "./Base";
 
 const dados = [
    { 
-    titulo:"Cariocastech",
-    texto:"Alunos de front-end da faculdade ibmec"
-
+    titulo: "Cariocastech",
+    texto: "Alunos de front-end da faculdade IBMEC"
    },
    {  
-    titulo:"Cursos",
-    texto:"Ciencias de dados, engenharia de software e engenharia de computação"
+    titulo: "Cursos",
+    texto: "Ciências de Dados, Engenharia de Software e Engenharia de Computação"
    },
+];
 
-]
 const SobreNos = () => (
     <Base>
         <ListContainer>
-       { 
-           dados.map( (ele,i) => (
-                   <Cartao 
-                     key = {i}
-                     titulo={ele.titulo}
-                     texto={ele.texto}
-
+            { 
+                dados.map((ele, i) => (
+                    <Cartao 
+                        key={i}
+                        titulo={ele.titulo}
+                        texto={ele.texto}
                     />
-
-           ))      
-
-
-      }  
-      </ListContainer>
-           
+                ))      
+            }  
+        </ListContainer>
     </Base>
 );
 
 export default SobreNos;
+

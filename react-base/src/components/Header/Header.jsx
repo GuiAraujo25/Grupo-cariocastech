@@ -1,43 +1,29 @@
 import { Link } from "react-router-dom";
-import styled from 'styled-components';
-
-// Estilizando o Top
-const Top = styled.header`
-  display: flex;
-  align-items: center;
-  justify-content: space-between; // Para manter espaço entre a logo e os links
-  padding: 10px;
-  background-color: #f7f7f7; // Cor de fundo, ajuste conforme necessário
-`;
-
-// Estilizando a Logo
-const Logo = styled.img`
-  width: 100px; // Ajuste o tamanho conforme necessário
-  height: auto;
-  margin-right: 20px; // Espaço entre a logo e os links
-`;
-
-// Estilizando os Links
-const NavLink = styled(Link)`
-  margin-left: 20px; // Espaço entre os links
-`;
+import { Top } from "./Style";
 
 const Header = () => (
   <Top>
-    <Logo src={`${process.env.PUBLIC_URL}/images/logo-ibmec.png`} alt="Logo IBMEC" />
-    <nav>
-      <NavLink to="/">Home</NavLink>
-      <NavLink to="/fotos">Fotos</NavLink>
-      <NavLink to="/Sobre-nos">Sobre nós</NavLink>
-      <NavLink to="/Projetos">Projetos</NavLink>
-      <NavLink to="/Idioma">Idiomas</NavLink>
-
-      {window.sessionStorage.getItem('accessToken') ? (
-        <NavLink to="/logout">Logout</NavLink>
-      ) : (
-        <NavLink to="/login">Login</NavLink>
-      )}
-    </nav>
+    <div id="navbar">
+      <div id="linkIbmec">
+        <Link to="https://www.ibmec.br/" aria-label="IBMEC website">
+          <img src="imagens/logo_ibmec.png" alt="Logo IBMEC" />
+        </Link>
+      </div>
+      <div id="navegacao">
+        <Link to="/" aria-label="Home">Home</Link>
+        <Link to="/sobrenos" aria-label="Sobre Nos">Sobre Nos</Link>
+      </div>
+    </div>
+   
+    <div id="projetosLink" style={{ 
+      textAlign: "center", 
+      position: "relative", 
+      top: "117px",
+      marginRight: "2000px", 
+      fontSize: 24
+    }}>
+      <Link to="/fotos" style={{ color: "rgb(0, 37, 85)", display: "block" }}>Projetos</Link>
+    </div>
   </Top>
 );
 
@@ -46,6 +32,14 @@ export default Header;
 
 
 
+
+
+
+
+
+
+
+                              
 
 
 
