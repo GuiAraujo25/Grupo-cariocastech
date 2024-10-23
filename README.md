@@ -8,6 +8,8 @@
 
   - Eduardo Andrade https://github.com/eduardoandrade22/react-base-project.git
 
+  - João Márcio Prado Silva  https://github.com/joaocellbit
+
 ## Propósito do sistema
 
 - Link: [5W2H](https://github.com/GuiAraujo25/Grupo-cariocastech/blob/main/projetos/5W2H.md)
