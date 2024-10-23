@@ -8,7 +8,7 @@
 
   - Eduardo Andrade https://github.com/eduardoandrade22/react-base-project.git
 
-  - João Márcio Prado Silva 
+  - João Márcio Prado Silva  https://github.com/joaocellbit
 
 ## Propósito do sistema
 
