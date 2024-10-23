@@ -5,19 +5,19 @@ import Base from "./Base";
 const dados = [
     {
         titulo:"Projeto 1.",
-        texto:"....."
+        texto:"a"
     },
     {
         titulo:"Projeto 2.",
-        texto:"....."
+        texto:"b"
     },
     {
         titulo:"Projeto 3.",
-        texto:"....."
+        texto:"c"
     },
     {
         titulo:"Projeto 4.",
-        texto:"....."
+        texto:"d"
     },
 ]
 
