@@ -1,6 +1,6 @@
 # Grupo cariocastech
 ## Integrantes 
- - Guilherme Pardelhas https://github.com/GuiAraujo25/front-end
+ - Guilherme Pardelhas https://github.com/GuiAraujo25
 
   - Bernardo Ottan  https://github.com/berna-ottan/react-base-project.git
 
