@@ -19,6 +19,38 @@ const dados = [
         titulo:"Projeto 4.",
         texto:"d"
     },
+    {
+        titulo:"Projeto 1.",
+        texto:"a"
+    },
+    {
+        titulo:"Projeto 1.",
+        texto:"a"
+    },
+    {
+        titulo:"Projeto 1.",
+        texto:"a"
+    },
+    {
+        titulo:"Projeto 1.",
+        texto:"a"
+    },
+    {
+        titulo:"Projeto 1.",
+        texto:"a"
+    },
+    {
+        titulo:"Projeto 1.",
+        texto:"a"
+    },
+    {
+        titulo:"Projeto 1.",
+        texto:"a"
+    },
+    {
+        titulo:"Projeto 1.",
+        texto:"a"
+    },
 ]
 
 const Projetos = () => (
