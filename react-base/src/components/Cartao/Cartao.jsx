@@ -11,7 +11,7 @@ const Cartao = ( props ) => {
             <img src={props.imagem} id='imagem'></img>
             <p id='texto'>{props.texto}</p>
             <button> 
-                <a id='butao'>{props.butao}</a>
+                <a id='botao'>{props.botao}</a>
             </button>
         </div>
     </Container>
