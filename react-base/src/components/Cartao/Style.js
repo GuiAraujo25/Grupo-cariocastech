@@ -9,22 +9,34 @@ const Container = styled.div`
   justify-content: center;
   align-items: center;
   overflow: hidden;
-`;
+  background-color: #F5F5F5;
 
-const Titulo = styled.h3`
+
+
+  #titulo {
     text-decoration: underline;
-    
-`;
+    padding: 0 .5em;    
+  }
 
-
-
-const Texto = styled.p`
+ #butao {
+    height: 30px;
+    width: 100px;
+    background: #F5AC00;
+    border-radius: 5px;
+  }
+   
+ #texto {
     padding: 0 .5em;
+  }
+      
+  #div1 {}
+  img {
+  height: 110px;
+  }
 
 `;
 
-
-export {Container, Titulo, Texto};
+export {Container};
   
 
 

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { TopPart } from "./Style";
+import { TopPart } from "./style";
 
 const Azul = (props) => (
   <TopPart>
