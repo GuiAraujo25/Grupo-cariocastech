@@ -4,11 +4,11 @@ import { Div } from "./style";
 
 function ProjetoCartoes() {
     const listcartoes = [
-        { titulo: "Projeto 1", texto: "curso... ",imagem: "imagens/projeto.png", butao: "sobre"},
-        { titulo: "Projeto 2", texto: "curso... ",imagem: "imagens/projeto.png", butao: "sobre"},
-        { titulo: "Projeto 3", texto: "curso... ",imagem: "imagens/projeto.png", butao: "sobre"},
-        { titulo: "Projeto 4", texto: "curso... ",imagem: "imagens/projeto.png", butao: "sobre"},
-        { titulo: "Projeto 5", texto: "curso... ",imagem: "imagens/projeto.png", butao: "sobre"},
+        { titulo: "Projeto 1", texto: "curso... ",imagem: "imagens/projeto.png", butao: "Saiba Mais"},
+        { titulo: "Projeto 2", texto: "curso... ",imagem: "imagens/projeto.png", butao: "Saiba Mais"},
+        { titulo: "Projeto 3", texto: "curso... ",imagem: "imagens/projeto.png", butao: "Saiba Mais"},
+        { titulo: "Projeto 4", texto: "curso... ",imagem: "imagens/projeto.png", butao: "Saiba Mais"},
+        { titulo: "Projeto 5", texto: "curso... ",imagem: "imagens/projeto.png", butao: "Saiba Mais"},
     ]
 
     return (

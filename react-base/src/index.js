@@ -1,7 +1,6 @@
 
 import React from "react";
 import { createRoot } from "react-dom/client";
-
 import Home from "./pages/Home";
 import { HashRouter, Route, Routes } from "react-router-dom";
 import Fotos from "./pages/Fotos";
@@ -14,6 +13,7 @@ import Nova from "./pages/Nova";
 import SobreNos from "./pages/SobreNos";
 import Idiomas from "./pages/Idioma";
 import Projetos from "./pages/Projetos";
+import Detalhes from "./pages/detalhes";
 
 const container = document.getElementById("root");
 const root = createRoot(container);
@@ -39,6 +39,8 @@ root.render(
         <Route path="/SobreNos" element={<SobreNos/>} />
         <Route path="/Idioma" element={<Idiomas/>} />
         <Route path="/Projetos" element={<Projetos/>} />
+        <Route path="/Detalhes" element={<Detalhes/>} />
+        
       </Routes>
     </HashRouter>
   </React.StrictMode>
