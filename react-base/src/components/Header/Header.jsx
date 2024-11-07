@@ -71,7 +71,7 @@ const Header = () => (
       <NavLink to="/sobrenos" aria-label="Sobre Nos">Sobre Nos</NavLink>
       <NavLink to="/Projetos" aria-label="Projetos">Projetos</NavLink>
     </Nav>
-    <LanguageButton aria-label="Change language">trocar idioma</LanguageButton>
+    <LanguageButton aria-label="Change language">PT/EN</LanguageButton>
   </Top>
 );
 
