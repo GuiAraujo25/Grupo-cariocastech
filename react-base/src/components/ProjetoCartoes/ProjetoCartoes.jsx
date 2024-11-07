@@ -4,28 +4,19 @@ import { Div } from "./style";
 
 function ProjetoCartoes() {
     const listcartoes = [
-        { titulo: "Projeto 1", texto: "curso... ",imagem: "imagens/projeto.png", botao: "Saiba Mais"},
-        { titulo: "Projeto 2", texto: "curso... ",imagem: "imagens/projeto.png", botao: "Saiba Mais"},
-        { titulo: "Projeto 3", texto: "curso... ",imagem: "imagens/projeto.png", botao: "Saiba Mais"},
-        { titulo: "Projeto 4", texto: "curso... ",imagem: "imagens/projeto.png", botao: "Saiba Mais"},
-        { titulo: "Projeto 5", texto: "curso... ",imagem: "imagens/projeto.png", botao: "Saiba Mais"},
-        { titulo: "Projeto 6", texto: "curso... ",imagem: "imagens/projeto.png", botao: "Saiba Mais"},
-        { titulo: "Projeto 7", texto: "curso... ",imagem: "imagens/projeto.png", botao: "Saiba Mais"},
-        { titulo: "Projeto 8", texto: "curso... ",imagem: "imagens/projeto.png", botao: "Saiba Mais"},
-        { titulo: "Projeto 9", texto: "curso... ",imagem: "imagens/projeto.png", botao: "Saiba Mais"},
-        { titulo: "Projeto 10", texto: "curso... ",imagem: "imagens/projeto.png", botao: "Saiba Mais"},
-    ]
+        { titulo: "Projeto reforma laranjeiras", texto: "curso... ", imagem: "imagens/projetoflu.jpg", botao: "Saiba Mais", link: "http://localhost:3000/#/detalhes" },
+        { titulo: "Projeto Bola de ouro no Brasil", texto: "curso... ", imagem: "imagens/projetoouro.jpg", botao: "Saiba Mais", link: "http://localhost:3000/#/detalhes" },
+        { titulo: "Projeto Formula 1 nas escolas de todo o país", texto: "curso... ", imagem: "imagens/f1.jpg", botao: "Saiba Mais", link: "http://localhost:3000/#/detalhes" },
+        { titulo: "Projeto criação novo Orkut", texto: "curso... ", imagem: "imagens/projetoorkut.jpg", botao: "Saiba Mais", link: "http://localhost:3000/#/detalhes" },
+    ];
 
     return (
         <Div>
-            
             {listcartoes.map((item, index) => (
-                <Cartao key={index} titulo={item.titulo} texto={item.texto} imagem={item.imagem} botao={item.botao} />
+                <Cartao key={index} titulo={item.titulo} texto={item.texto} imagem={item.imagem} botao={item.botao} link={item.link} />
             ))}
-        
         </Div>
-      )
-        
+    );
 }
 
-export default ProjetoCartoes
+export default ProjetoCartoes;

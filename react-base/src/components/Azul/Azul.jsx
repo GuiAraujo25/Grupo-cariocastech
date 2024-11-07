@@ -10,9 +10,9 @@ const Azul = (props) => (
       <p id='texto'>
         {props.texto}
       </p>
-
     </div>
+    {props.imagem && <img src={props.imagem} alt="Imagem do Projeto" id="imagem-direita" />}
   </TopPart>
-)
+);
 
 export default Azul;

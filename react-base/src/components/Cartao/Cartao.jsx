@@ -1,20 +1,17 @@
-import { Container } from "./Style";
 import React from "react";
+import { CartaoContainer, Imagem, Titulo, Texto, Botao } from "./Style.js"; 
 
-
-const Cartao = ( props ) => {
-   return (
-
-    <Container>
-        <div id='div1'>
-            <h2 id='titulo'>{props.titulo}</h2>
-            <img src={props.imagem} id='imagem'></img>
-            <p id='texto'>{props.texto}</p>
-            <button> 
-                <a id='botao'>{props.botao}</a>
-            </button>
-        </div>
-    </Container>
- )
+function Cartao({ titulo, texto, imagem, botao, link }) {
+    return (
+        <CartaoContainer>
+            <Imagem src={imagem} alt={titulo} />
+            <Titulo>{titulo}</Titulo>
+            <Texto>{texto}</Texto>
+            <a href={link} target="_blank" rel="noopener noreferrer">
+                <Botao>{botao}</Botao>
+            </a>
+        </CartaoContainer>
+    );
 }
+
 export default Cartao;

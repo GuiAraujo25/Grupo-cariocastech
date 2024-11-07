@@ -25,6 +25,7 @@ const Home = () => {
     <Base>
       <Azul 
         name= "Portifólio de projetos IBMEC."
+        texto= "Conheça todos os projeitos realizados em nossa faculdade por diversos cursos, tecnologias e unidades "
       />
       <ProjetoCartoes/>
     </Base>
