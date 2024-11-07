@@ -46,18 +46,18 @@ const Nav = styled.nav`
 
 const LanguageButton = styled.button`
   position: absolute;
-  right: 20px; /* Alinha à direita */
-  top: 50%; /* Centraliza verticalmente */
-  transform: translateY(-50%); /* Centraliza corretamente */
+  right: 20px; 
+  top: 50%; 
+  transform: translateY(-50%); 
   background-color: transparent;
-  border: 1px solid #002855; /* Borda azul escuro */
-  color: #002855; /* Texto azul escuro */
+  border: 1px solid #002855; 
+  color: #002855; 
   padding: 5px 10px;
   cursor: pointer;
   font-weight: bold;
   border-radius: 5px;
   &:hover {
-    background-color: rgba(0, 0, 0, 0.1); /* Efeito hover */
+    background-color: rgba(0, 0, 0, 0.1); 
   }
 `;
 
