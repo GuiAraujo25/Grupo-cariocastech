@@ -1,57 +1,9 @@
 import Cartao from "../components/Cartao/Cartao";
 import ListContainer from "../components/ListContainer/ListContainer";
 import Base from "./Base";
+import dados_projetos from "../data/projetos.json"
 
-const dados = [
-    {
-        titulo:"Projeto 1.",
-        texto:"a"
-    },
-    {
-        titulo:"Projeto 2.",
-        texto:"b"
-    },
-    {
-        titulo:"Projeto 3.",
-        texto:"c"
-    },
-    {
-        titulo:"Projeto 4.",
-        texto:"d"
-    },
-    {
-        titulo:"Projeto 1.",
-        texto:"a"
-    },
-    {
-        titulo:"Projeto 1.",
-        texto:"a"
-    },
-    {
-        titulo:"Projeto 1.",
-        texto:"a"
-    },
-    {
-        titulo:"Projeto 1.",
-        texto:"a"
-    },
-    {
-        titulo:"Projeto 1.",
-        texto:"a"
-    },
-    {
-        titulo:"Projeto 1.",
-        texto:"a"
-    },
-    {
-        titulo:"Projeto 1.",
-        texto:"a"
-    },
-    {
-        titulo:"Projeto 1.",
-        texto:"a"
-    },
-]
+const dados = dados_projetos
 
 const Projetos = () => (
     <Base>
@@ -60,8 +12,8 @@ const Projetos = () => (
            dados.map( (ele, i) => (
                    <Cartao
                        key={i}
-                       titulo={ele.titulo}
-                       texto={ele.texto}
+                       titulo={ele.nome_projeto}
+                       texto={ele.titulo}
                     />
            ))
        }
