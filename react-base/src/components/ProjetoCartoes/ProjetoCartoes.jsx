@@ -36,6 +36,12 @@ function ProjetoCartoes() {
     { titulo: "Projeto Bola de ouro no Brasil", texto: "curso... ", imagem: "imagens/projetoouro.jpg", botao: "Saiba Mais", link: "http://localhost:3000/#/detalhes" },
     { titulo: "Projeto Formula 1 nas escolas de todo o país", texto: "curso... ", imagem: "imagens/f1.jpg", botao: "Saiba Mais", link: "http://localhost:3000/#/detalhes" },
     { titulo: "Projeto criação novo Orkut", texto: "curso... ", imagem: "imagens/projetoorkut.jpg", botao: "Saiba Mais", link: "http://localhost:3000/#/detalhes" },
+    { titulo: "Projeto circuito com arduino", texto: "curso... ", imagem: "imagens/projetoarduino.jpg", botao: "Saiba Mais", link: "http://localhost:3000/#/detalhes" },
+    { titulo: "Projeto nova área IBMEC", texto: "curso... ", imagem: "imagens/novaareaibmec.jpg", botao: "Saiba Mais", link: "http://localhost:3000/#/detalhes" },
+    { titulo: "Projeto phothoshop", texto: "curso... ", imagem: "imagens/projetophotoshop.jpg", botao: "Saiba Mais", link: "http://localhost:3000/#/detalhes" },
+    { titulo: "Projeto jogo em python", texto: "curso... ", imagem: "imagens/projetojogoempython.jpg", botao: "Saiba Mais", link: "http://localhost:3000/#/detalhes" },
+    { titulo: "Projeto IBMEC lives", texto: "curso... ", imagem: "imagens/projetoibmeclives.jpg", botao: "Saiba Mais", link: "http://localhost:3000/#/detalhes" },
+    { titulo: "Projeto protótipo de biblioteca virtual no figma", texto: "curso... ", imagem: "imagens/projetofigma.jpg", botao: "Saiba Mais", link: "http://localhost:3000/#/detalhes" },
   ];
 
   // Função de filtro para pesquisa
