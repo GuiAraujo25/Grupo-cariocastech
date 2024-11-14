@@ -96,11 +96,13 @@ function ProjetoCartoes() {
         {dados.map((item, index) => (
           <Cartao 
             key={index} 
-            titulo={item.titulo} 
-            texto={item.texto} 
+            nome={item.titulo}  // Aqui estamos passando o título
+            descricao={item.texto}  // A descrição é o campo 'texto'
             imagem={item.imagem} 
             botao={item.botao} 
             link={item.link}
+            showBotao={true}
+            showDescricao={true}
           />
         ))}
       </Div>

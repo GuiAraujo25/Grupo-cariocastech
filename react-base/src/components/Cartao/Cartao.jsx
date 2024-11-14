@@ -1,17 +1,28 @@
-import React from "react";
-import { CartaoContainer, Imagem, Titulo, Texto, Botao } from "./Style.js"; 
+import React from 'react';
+import { CartaoContainer, Imagem, Titulo, Cargo, Texto, Botao } from './Style';
 
-function Cartao({ titulo, texto, imagem, botao, link }) {
-    return (
-        <CartaoContainer>
-            <Titulo>{titulo}</Titulo>
-            <Imagem src={imagem} alt={titulo} />
-            <Texto>{texto}</Texto>
-            <a href={link} target="_blank" rel="noopener noreferrer">
-                <Botao>{botao}</Botao>
-            </a>
-        </CartaoContainer>
-    );
+const Cartao = ({ nome, cargo, descricao, imagem, link, showBotao, showDescricao }) => {
+    console.log("Descrição:", descricao);
+  return (
+    <CartaoContainer>
+      <Imagem src={imagem} alt={nome} />
+      <Titulo>{nome}</Titulo>
+      <Cargo>{cargo}</Cargo>
+
+      {/* Exibe a descrição apenas quando showDescricao for true */}
+      {showDescricao && <Texto>{descricao}</Texto>}
+
+      {/* Exibe o botão "Saiba Mais" quando showBotao for true */}
+      {showBotao && (
+        <Botao>
+          <a href={link}>Saiba Mais</a>
+        </Botao>
+      )}
+    </CartaoContainer>
+  );
 }
 
 export default Cartao;
+
+
+

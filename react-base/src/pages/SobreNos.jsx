@@ -1,38 +1,77 @@
-import Cartao from "../components/Cartao/Cartao";
-import ListContainer from "../components/ListContainer/ListContainer";
+import React from "react";
 import Base from "./Base";
+import Cartao from "../components/Cartao/Cartao";
+import { TituloSobreNos, DescricaoSobreNos, CartaoSobreNosContainer } from "../components/Cartao/Style";
 
 const dados = [
-   { 
-    titulo:"Cariocastech",
-    texto:"Alunos de front-end da faculdade ibmec"
+  {
+    nome: "Eduardo Jacob Pontes",
+    cargo: "Engenheiro de Software",
+    descricao: "Com vasta experiência no desenvolvimento de sistemas robustos e escaláveis..",
+    imagem: "imagens/iconeazuldeperfil.png",
+    link: "#"
+  },
+  {
+    nome: "João Marcio",
+    cargo: "Engenheiro de Software",
+    descricao: "João Marcio traz consigo uma bagagem sólida em engenharia de software.",
+    imagem: "imagens/iconeazuldeperfil.png",
+    link: "#"
+  },
+  {
+    nome: "Guilherme Pardelhas",
+    cargo: "Cientista de Dados e IA",
+    descricao: "Guilherme é um cientista de dados apaixonado por inteligência artificial.",
+    imagem: "imagens/iconeazuldeperfil.png",
+    link: "#"
+  },
+  {
+    nome: "Eduardo ",
+    cargo: "Engenheiro da Computação",
+    descricao: "Eduardo é um profissional de engenharia da computação.",
+    imagem: "imagens/iconeazuldeperfil.png",
+    link: "#"
+  },
+  {
+    nome: "Bernardo Ottan",
+    cargo: "Engenheiro da Computação",
+    descricao: "Bernardo Ottan possui uma forte formação em engenharia da computação.",
+    imagem: "imagens/iconeazuldeperfil.png",
+    link: "#"
+  }
+];
 
-   },
-   {  
-    titulo:"Cursos",
-    texto:"Ciencias de dados, engenharia de software e engenharia de computação"
-   },
-
-]
 const SobreNos = () => (
-    <Base>
-        <ListContainer>
-       { 
-           dados.map( (ele,i) => (
-                   <Cartao 
-                     key = {i}
-                     titulo={ele.titulo}
-                     texto={ele.texto}
+  <Base>
+    <section id="sobre-nos">
+      <TituloSobreNos>Sobre Nós</TituloSobreNos>
+      <DescricaoSobreNos>Conheça os membros da nossa equipe dedicada e apaixonada por tecnologia!</DescricaoSobreNos>
 
-                    />
-
-           ))      
-
-
-      }  
-      </ListContainer>
-           
-    </Base>
+      {/* Usando o contêiner flex para os cartões */}
+      <CartaoSobreNosContainer>
+        {dados.map((ele, i) => (
+          <Cartao
+            key={i}
+            nome={ele.nome}
+            cargo={ele.cargo}
+            descricao={ele.descricao}
+            imagem={ele.imagem}
+            link={ele.link}
+            showBotao={false}  // Não exibe o botão "Saiba Mais"
+            showDescricao={true} // Garante que a descrição seja exibida
+          />
+        ))}
+      </CartaoSobreNosContainer>
+    </section>
+  </Base>
 );
 
 export default SobreNos;
+
+
+
+
+
+
+
+
