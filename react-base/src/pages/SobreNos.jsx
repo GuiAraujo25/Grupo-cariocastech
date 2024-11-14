@@ -45,7 +45,7 @@ const SobreNos = () => (
   <Base>
     <section id="sobre-nos">
       <TituloSobreNos>Sobre Nós</TituloSobreNos>
-      <DescricaoSobreNos>Conheça os membros da nossa equipe dedicada e apaixonada por tecnologia!</DescricaoSobreNos>
+      <DescricaoSobreNos>Conheça os desenvolvedores da plataforma!</DescricaoSobreNos>
 
       {/* Usando o contêiner flex para os cartões */}
       <CartaoSobreNosContainer>
