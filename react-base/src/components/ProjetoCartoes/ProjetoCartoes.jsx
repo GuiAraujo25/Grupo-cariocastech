@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Cartao from '../Cartao/Cartao';
 import { Div, Container2, Container } from './Style';
-import { FaSearch } from 'react-icons/fa';
 import Select from 'react-select';
 
 const options1 = [
@@ -15,9 +14,6 @@ const options2 = [
   { value: 'Ibmec Centro', label: 'Ibmec Centro' },
   { value: 'Ibmec BH', label: 'Ibmec BH' },
 ];
-const options3 = [
-  { value: '24/09/2024', label: '24/09/2024' },
-];
 const options4 = [
   { value: '2022.1', label: '2022.1' },
   { value: '2022.2', label: '2022.2' },
@@ -28,8 +24,11 @@ const options4 = [
 ];
 
 function ProjetoCartoes() {
-  const [dados, setDados] = useState([]);  // Dados dos projetos
-  const [pesquisa, setPesquisa] = useState("");  // Estado da pesquisa
+  const [dados, setDados] = useState([]);
+  const [pesquisa, setPesquisa] = useState("");
+  const [filtroTecnologia, setFiltroTecnologia] = useState(null);
+  const [filtroUnidade, setFiltroUnidade] = useState(null);
+  const [filtroPeriodo, setFiltroPeriodo] = useState(null);
 
   const listcartoes = [
     { titulo: "Projeto reforma laranjeiras", texto: "curso... ", imagem: "imagens/projetoflu.jpg", botao: "Saiba Mais", link: "http://localhost:3000/#/detalhes" },
@@ -44,15 +43,22 @@ function ProjetoCartoes() {
     { titulo: "Projeto protótipo de biblioteca virtual no figma", texto: "curso... ", imagem: "imagens/projetofigma.jpg", botao: "Saiba Mais", link: "http://localhost:3000/#/detalhes" },
   ];
 
-  // Função de filtro para pesquisa
   const handlePesquisa = (e) => {
     setPesquisa(e.target.value);
     const filtro = e.target.value.toLowerCase();
     const filtrados = listcartoes.filter((item) =>
-      item.titulo.toLowerCase().includes(filtro) || 
+      item.titulo.toLowerCase().includes(filtro) ||
       item.texto.toLowerCase().includes(filtro)
     );
     setDados(filtrados);
+  };
+
+  const handleLimparFiltros = () => {
+    setPesquisa("");
+    setFiltroTecnologia(null);
+    setFiltroUnidade(null);
+    setFiltroPeriodo(null);
+    setDados(listcartoes);  // Restaura a lista completa
   };
 
   useEffect(() => {
@@ -65,19 +71,25 @@ function ProjetoCartoes() {
         <Select
           options={options1}
           placeholder="Tecnologia"
+          value={filtroTecnologia}
+          onChange={setFiltroTecnologia}
           id="select"
         />
         <Select
           options={options2}
           placeholder="Unidade"
+          value={filtroUnidade}
+          onChange={setFiltroUnidade}
           id="select"
         />
         <Select
           options={options4}
           placeholder="Período"
+          value={filtroPeriodo}
+          onChange={setFiltroPeriodo}
           id="select"
         />
-        <button className="limpar-filtros">Limpar</button>
+        <button onClick={handleLimparFiltros} className="limpar-filtros">Limpar</button>
       </Container>
       
       <Container2>
@@ -96,8 +108,8 @@ function ProjetoCartoes() {
         {dados.map((item, index) => (
           <Cartao 
             key={index} 
-            nome={item.titulo}  // Aqui estamos passando o título
-            descricao={item.texto}  // A descrição é o campo 'texto'
+            titulo={item.titulo}  
+            texto={item.texto} 
             imagem={item.imagem} 
             botao={item.botao} 
             link={item.link}

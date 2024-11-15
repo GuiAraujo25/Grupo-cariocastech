@@ -6,7 +6,7 @@ const Detalhes = () => {
   return (
     <Base>
       <Azul 
-        name="Projeto reforma laranjeiras (realizado por Eduardo, Bernardo , ...)"
+        name="Projeto reforma laranjeiras"
         texto="Um próximo passo pra historia do nosso gigante tricolor ..."
         imagem= {`${process.env.PUBLIC_URL}imagens/projetoflu.jpg`} 
       />

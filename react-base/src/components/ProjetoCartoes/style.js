@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-// Container para os cartões
 const Div = styled.div`
   margin-left: 85px;
   margin-right: 85px;
@@ -11,9 +10,14 @@ const Div = styled.div`
   margin-top: 30px;
   gap: 20px;
   padding-bottom: 50px;
+
+  & > * {
+    flex: 1 1 calc(25% - 20px); /* 4 cartões por linha */
+    max-width: calc(25% - 20px);
+    box-sizing: border-box;
+  }
 `;
 
-// Container para os filtros de seleção
 const Container = styled.div`
   display: flex;
   justify-content: space-around;
@@ -44,7 +48,6 @@ const Container = styled.div`
   }
 `;
 
-// Container adicional para a seção de busca ou título
 const Container2 = styled.div`
   padding: 20px;
   text-align: center;
@@ -81,7 +84,6 @@ const Container2 = styled.div`
     color: #aaa;
   }
 
-  // Estilos adicionais para a barra de pesquisa
   .search-bar {
     display: flex;
     justify-content: center;

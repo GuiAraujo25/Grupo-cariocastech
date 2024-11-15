@@ -1,7 +1,7 @@
 import React from "react";
 import Base from "./Base";
-import Cartao from "../components/Cartao/Cartao";
-import { TituloSobreNos, DescricaoSobreNos, CartaoSobreNosContainer } from "../components/Cartao/Style";
+import Cartao2 from "../components/Cartao2/Cartao2";
+import { TituloSobreNos, DescricaoSobreNos, CartaoSobreNosContainer } from "../components/Cartao2/style";
 
 const dados = [
   {
@@ -26,7 +26,7 @@ const dados = [
     link: "#"
   },
   {
-    nome: "Eduardo ",
+    nome: "Eduardo Andrade",
     cargo: "Engenheiro da Computação",
     descricao: "Eduardo é um profissional de engenharia da computação.",
     imagem: "imagens/iconeazuldeperfil.png",
@@ -45,12 +45,12 @@ const SobreNos = () => (
   <Base>
     <section id="sobre-nos">
       <TituloSobreNos>Sobre Nós</TituloSobreNos>
-      <DescricaoSobreNos>Conheça os desenvolvedores da plataforma!</DescricaoSobreNos>
+      <DescricaoSobreNos>Conheça um pouco sobre nossa equipe</DescricaoSobreNos>
 
       {/* Usando o contêiner flex para os cartões */}
       <CartaoSobreNosContainer>
         {dados.map((ele, i) => (
-          <Cartao
+          <Cartao2
             key={i}
             nome={ele.nome}
             cargo={ele.cargo}
