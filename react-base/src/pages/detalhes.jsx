@@ -1,34 +1,32 @@
 import React, { useEffect, useState } from "react";
-import Base from "./Base";
-import Azul from "../components/Azul/azul";
+import Base from "./Base"; // Mantendo o design anterior
+import Azul from "../components/Azul/azul"; // Mantendo o componente visual
 import { useParams } from "react-router-dom";
+import projetos from "../data/projetos.json"; // Importando o JSON de projetos
 
 const Detalhes = () => {
-  const { id } = useParams();  // Acessando o parâmetro 'id' da URL
+  const { id } = useParams(); // Captura o ID da URL
   const [detalhes, setDetalhes] = useState(null);
 
   useEffect(() => {
-    // Aqui você pode fazer uma requisição para buscar os detalhes com base no 'id'
-    // Por exemplo, uma chamada para API ou buscar no estado global.
-    console.log("ID recebido:", id);
+    // Busca o projeto correspondente pelo ID
+    const projeto = projetos.find((item) => item.id === parseInt(id));
+    setDetalhes(projeto);
+  }, [id]);
 
-    // Simulando a recuperação de dados com base no 'id'
-    setDetalhes(`Detalhes do item com id: ${id}`);
-  }, [id]);  // A dependência 'id' faz o efeito ser chamado novamente sempre que o 'id' mudar.
+  if (!detalhes) {
+    return <p>Carregando informações do projeto...</p>; // Tela de carregamento
+  }
 
   return (
     <Base>
-      <Azul 
-        name={id}
-        texto="Um próximo passo pra historia do nosso gigante tricolor ..."
-        imagem= {`${process.env.PUBLIC_URL}imagens/projetoflu.jpg`} 
+      <Azul
+        name={detalhes.titulo} // Usa o título do projeto como nome
+        texto={detalhes.texto} // Usa a descrição do projeto
+        imagem={detalhes.imagem} // Usa a imagem do JSON
       />
-      <Azul />
     </Base>
   );
-}
+};
 
 export default Detalhes;
-
-
-// vou ter q puxer o prejetos

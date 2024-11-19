@@ -2,8 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Cartao from '../Cartao/Cartao';
 import { Div, Container2, Container } from './Style';
 import Select from 'react-select';
-import projetos from "../../data/projetos.json"
-import Cartao2 from '../Cartao2/Cartao2';
+import projetos from "../../data/projetos.json"; // JSON com os projetos
 
 const options1 = [
   { value: 'React', label: 'React' },
@@ -11,11 +10,13 @@ const options1 = [
   { value: 'Python', label: 'Python' },
   { value: 'Assembly', label: 'Assembly' },
 ];
+
 const options2 = [
   { value: 'Ibmec Barra', label: 'Ibmec Barra' },
   { value: 'Ibmec Centro', label: 'Ibmec Centro' },
   { value: 'Ibmec BH', label: 'Ibmec BH' },
 ];
+
 const options4 = [
   { value: '2022.1', label: '2022.1' },
   { value: '2022.2', label: '2022.2' },
@@ -32,7 +33,11 @@ function ProjetoCartoes() {
   const [filtroUnidade, setFiltroUnidade] = useState(null);
   const [filtroPeriodo, setFiltroPeriodo] = useState(null);
 
-  const listcartoes = projetos
+  // Adiciona IDs dinamicamente aos projetos carregados
+  const listcartoes = projetos.map((item, index) => ({
+    ...item,
+    id: item.id || index + 1, // Se o id não existir, cria dinamicamente
+  }));
 
   const handlePesquisa = (e) => {
     setPesquisa(e.target.value);
@@ -49,11 +54,11 @@ function ProjetoCartoes() {
     setFiltroTecnologia(null);
     setFiltroUnidade(null);
     setFiltroPeriodo(null);
-    setDados(listcartoes);  // Restaura a lista completa
+    setDados(listcartoes); // Restaura a lista completa
   };
 
   useEffect(() => {
-    setDados(listcartoes);
+    setDados(listcartoes); // Carrega a lista ao montar o componente
   }, []);
 
   return (
@@ -96,14 +101,14 @@ function ProjetoCartoes() {
       </Container2>
 
       <Div>
-        {dados.map((item, index) => (
+        {dados.map((item) => (
           <Cartao
-            key={index} 
-            titulo={item.titulo}  
-            texto={item.texto} 
-            imagem={item.imagem} 
-            botao={item.botao} 
-            id={item.id}
+            key={item.id} // Agora usa o id gerado dinamicamente
+            titulo={item.titulo}
+            texto={item.texto}
+            imagem={item.imagem}
+            botao={item.botao}
+            id={item.id} // Passa o id para a página de detalhes
             showBotao={true}
             showDescricao={true}
           />
