@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import Cartao from '../Cartao/Cartao';
 import { Div, Container2, Container } from './Style';
 import Select from 'react-select';
+import projetos from "../../data/projetos.json"
+import Cartao2 from '../Cartao2/Cartao2';
 
 const options1 = [
   { value: 'React', label: 'React' },
@@ -30,18 +32,7 @@ function ProjetoCartoes() {
   const [filtroUnidade, setFiltroUnidade] = useState(null);
   const [filtroPeriodo, setFiltroPeriodo] = useState(null);
 
-  const listcartoes = [
-    { titulo: "Projeto reforma laranjeiras", texto: "curso... ", imagem: "imagens/projetoflu.jpg", botao: "Saiba Mais", link: "http://localhost:3000/#/detalhes" },
-    { titulo: "Projeto Bola de ouro no Brasil", texto: "curso... ", imagem: "imagens/projetoouro.jpg", botao: "Saiba Mais", link: "http://localhost:3000/#/detalhes" },
-    { titulo: "Projeto Formula 1 nas escolas de todo o país", texto: "curso... ", imagem: "imagens/f1.jpg", botao: "Saiba Mais", link: "http://localhost:3000/#/detalhes" },
-    { titulo: "Projeto criação novo Orkut", texto: "curso... ", imagem: "imagens/projetoorkut.jpg", botao: "Saiba Mais", link: "http://localhost:3000/#/detalhes" },
-    { titulo: "Projeto circuito com arduino", texto: "curso... ", imagem: "imagens/projetoarduino.jpg", botao: "Saiba Mais", link: "http://localhost:3000/#/detalhes" },
-    { titulo: "Projeto nova área IBMEC", texto: "curso... ", imagem: "imagens/novaareaibmec.jpg", botao: "Saiba Mais", link: "http://localhost:3000/#/detalhes" },
-    { titulo: "Projeto phothoshop", texto: "curso... ", imagem: "imagens/projetophotoshop.jpg", botao: "Saiba Mais", link: "http://localhost:3000/#/detalhes" },
-    { titulo: "Projeto jogo em python", texto: "curso... ", imagem: "imagens/projetojogoempython.jpg", botao: "Saiba Mais", link: "http://localhost:3000/#/detalhes" },
-    { titulo: "Projeto IBMEC lives", texto: "curso... ", imagem: "imagens/projetoibmeclives.jpg", botao: "Saiba Mais", link: "http://localhost:3000/#/detalhes" },
-    { titulo: "Projeto protótipo de biblioteca virtual no figma", texto: "curso... ", imagem: "imagens/projetofigma.jpg", botao: "Saiba Mais", link: "http://localhost:3000/#/detalhes" },
-  ];
+  const listcartoes = projetos
 
   const handlePesquisa = (e) => {
     setPesquisa(e.target.value);
@@ -106,13 +97,13 @@ function ProjetoCartoes() {
 
       <Div>
         {dados.map((item, index) => (
-          <Cartao 
+          <Cartao
             key={index} 
             titulo={item.titulo}  
             texto={item.texto} 
             imagem={item.imagem} 
             botao={item.botao} 
-            link={item.link}
+            id={item.id}
             showBotao={true}
             showDescricao={true}
           />

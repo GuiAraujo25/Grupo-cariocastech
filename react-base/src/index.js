@@ -39,7 +39,7 @@ root.render(
         <Route path="/SobreNos" element={<SobreNos/>} />
         <Route path="/Idioma" element={<Idiomas/>} />
         <Route path="/Projetos" element={<Projetos/>} />
-        <Route path="/Detalhes" element={<Detalhes/>} />
+        <Route path="/Detalhes/:id" element={<Detalhes/>} />
         
       </Routes>
     </HashRouter>
