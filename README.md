@@ -46,6 +46,10 @@
 
  - Link: [Slide](https://www.canva.com/design/DAGRynzL7YI/XWgevykFrY1Z7gmPjNXMLw/edit)
 
+## Apresentação 2
+
+ - Link: [Slide 2](https://www.canva.com/design/DAGWf7OEV9g/ZDL2dKfsMg7dSN2lR6vkIQ/edit)
+
 
 
 
