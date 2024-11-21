@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useTranslation } from 'react-i18next'; // Importa o hook de tradução
 import Cartao from '../Cartao/Cartao';
 import { Div, Container2, Container } from './Style';
 import Select from 'react-select';
@@ -27,6 +28,7 @@ const options4 = [
 ];
 
 function ProjetoCartoes() {
+  const { t } = useTranslation(); // Hook para acessar as traduções
   const [dados, setDados] = useState([]);
   const [pesquisa, setPesquisa] = useState("");
   const [filtroTecnologia, setFiltroTecnologia] = useState(null);
@@ -43,8 +45,8 @@ function ProjetoCartoes() {
     setPesquisa(e.target.value);
     const filtro = e.target.value.toLowerCase();
     const filtrados = listcartoes.filter((item) =>
-      item.titulo.toLowerCase().includes(filtro) ||
-      item.texto.toLowerCase().includes(filtro)
+      t(item.titulo).toLowerCase().includes(filtro) ||
+      t(item.texto).toLowerCase().includes(filtro)
     );
     setDados(filtrados);
   };
@@ -66,34 +68,36 @@ function ProjetoCartoes() {
       <Container>
         <Select
           options={options1}
-          placeholder="Tecnologia"
+          placeholder={t("technology")} // Placeholder traduzido
           value={filtroTecnologia}
           onChange={setFiltroTecnologia}
           id="select"
         />
         <Select
           options={options2}
-          placeholder="Unidade"
+          placeholder={t("campus")} // Placeholder traduzido
           value={filtroUnidade}
           onChange={setFiltroUnidade}
           id="select"
         />
         <Select
           options={options4}
-          placeholder="Período"
+          placeholder={t("period")} // Placeholder traduzido
           value={filtroPeriodo}
           onChange={setFiltroPeriodo}
           id="select"
         />
-        <button onClick={handleLimparFiltros} className="limpar-filtros">Limpar</button>
+        <button onClick={handleLimparFiltros} className="limpar-filtros">
+          {t("clearFilters")} {/* Texto do botão traduzido */}
+        </button>
       </Container>
       
       <Container2>
-        <h1>Projetos</h1>
+        <h1>{t("projects")}</h1> {/* Título traduzido */}
         <div className="search-bar">
           <input
             type="text"
-            placeholder="Pesquise por título ou descrição"
+            placeholder={t("searchPlaceholder")} // Placeholder traduzido
             value={pesquisa}
             onChange={handlePesquisa}
           />
@@ -104,10 +108,10 @@ function ProjetoCartoes() {
         {dados.map((item) => (
           <Cartao
             key={item.id} // Agora usa o id gerado dinamicamente
-            titulo={item.titulo}
-            texto={item.texto}
+            titulo={t(item.titulo)} // Traduz o título
+            texto={t(item.texto)} // Traduz o texto
             imagem={item.imagem}
-            botao={item.botao}
+            botao={t(item.botao)} // Traduz o texto do botão
             id={item.id} // Passa o id para a página de detalhes
             showBotao={true}
             showDescricao={true}

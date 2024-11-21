@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next"; // Importa o hook de tradução
 import Base from "./Base"; // Componente Base
 import Azul from "../components/Azul/azul"; // Seção azul superior
 import { useParams } from "react-router-dom";
@@ -34,6 +35,7 @@ const ConteudoExtra = styled.div`
 `;
 
 const Detalhes = () => {
+  const { t } = useTranslation(); // Hook para acessar as traduções
   const { id } = useParams();
   const [detalhes, setDetalhes] = useState(null);
 
@@ -43,50 +45,49 @@ const Detalhes = () => {
   }, [id]);
 
   if (!detalhes) {
-    return <p>Carregando informações do projeto...</p>;
+    return <p>{t("loadingProjectInfo")}</p>; // Texto traduzido
   }
 
   // Função para substituir placeholders por elementos JSX
   const renderTextoComMarcadores = (texto) => {
-    if (!texto) return "Informações não disponíveis.";
-    return texto.split("[TITULO]").map((parte, index) =>
-      index === 0 ? (
-        parte
-      ) : (
-        <>
-          <strong>{detalhes.titulo}</strong>
-          {parte}
-        </>
-      )
-    );
+    if (!texto) return t("infoNotAvailable"); // Texto traduzido
+    return t(texto)
+      .split("[TITULO]")
+      .map((parte, index) =>
+        index === 0 ? (
+          parte
+        ) : (
+          <>
+            <strong>{t(detalhes.titulo)}</strong>
+            {parte}
+          </>
+        )
+      );
   };
 
   return (
     <Base>
       {/* Seção Azul Superior */}
       <Azul
-        name={detalhes.titulo}
+        name={t(detalhes.titulo)} // Título traduzido
         texto={renderTextoComMarcadores(detalhes.texto)} // Processa a descrição com placeholders
         imagem={detalhes.imagem}
       />
 
       {/* Nova Seção para o Conteúdo Extra */}
       <ConteudoExtra>
-        <h2>Sobre o Projeto</h2>
+        <h2>{t("aboutProject")}</h2> {/* Título traduzido */}
         <p>{renderTextoComMarcadores(detalhes.conteudo)}</p>
 
-        <h2>Detalhes do Projeto</h2>
+        <h2>{t("projectDetails")}</h2> {/* Título traduzido */}
         <ul>
-          <li>Início: {detalhes.inicio}</li>
-          <li>Duração: {detalhes.duracao}</li>
-          <li>Equipe envolvida: {detalhes.equipe}</li>
-          <li>Local: {detalhes.local}</li>
+          <li>{t("projectStart")}: {t(detalhes.inicio)}</li>
+          <li>{t("projectDuration")}: {t(detalhes.duracao)}</li>
+          <li>{t("projectTeam")}: {t(detalhes.equipe)}</li>
+          <li>{t("projectLocation")}: {t(detalhes.local)}</li>
         </ul>
 
-        <p>
-          Caso tenha dúvidas ou queira contribuir para o projeto, entre em
-          contato conosco por meio dos canais oficiais.
-        </p>
+        <p>{t("contactForQuestions")}</p> {/* Texto traduzido */}
       </ConteudoExtra>
     </Base>
   );
