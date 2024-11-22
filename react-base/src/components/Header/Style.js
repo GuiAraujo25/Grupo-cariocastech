@@ -6,11 +6,11 @@ const Top = styled.header`
   display: flex;
   flex-direction: row;
   margin: 0;
-  position: fixed; /* Torna o header fixo no topo */
-  top: 0; /* Posiciona o header no topo da tela */
-  width: 100%; /* Garante que o header ocupe a largura total da tela */
-  z-index: 1000; /* Certifica que o header fique acima de outros elementos */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona uma leve sombra para destacar o header */
+  position: fixed; /* Faz o header ficar fixo */
+  top: 0; /* Posiciona no topo da tela */
+  width: 100%; /* Garante que ocupe toda a largura da tela */
+  z-index: 1000; /* Certifica que fique acima de outros elementos */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra para destaque */
 
   a {
     text-align: center;
