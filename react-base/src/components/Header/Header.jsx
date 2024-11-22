@@ -77,7 +77,7 @@ const Header = () => {
   return (
     <Top>
       <a href="https://www.ibmec.br/" aria-label="IBMEC website">
-        <Logo src="/imagens/Logo-ibmec.png" alt="Logo IBMEC" />
+        <Logo src="imagens/Logo-ibmec.png" alt="Logo IBMEC" />
       </a>
       <Nav>
         <NavLink to="/" aria-label={t("Home")}>{t("Home")}</NavLink>
